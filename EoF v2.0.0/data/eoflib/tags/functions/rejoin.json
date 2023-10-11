@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		"eof:effects/main",
+		"eof:effects/mudwings/rejuvenation/1/cooldown",
+		"eof:effects/seawings/true_blessing/1",
+		"eof:effects/skywings/skyborn/regen/1/cooldown"
+	]
+}

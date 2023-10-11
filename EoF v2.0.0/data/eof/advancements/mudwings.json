@@ -1,0 +1,19 @@
+{
+	"parent": "eof:pyrrhian",
+	"criteria": {
+		"is_mudwing": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "eof:tribes/mudwings"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "eof:effects/main"
+	}
+}

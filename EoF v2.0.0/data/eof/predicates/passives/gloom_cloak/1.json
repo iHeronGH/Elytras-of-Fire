@@ -1,0 +1,23 @@
+{
+	"condition": "minecraft:time_check",
+	"value": {
+		"min": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": "#eoflib.worldtime.dusk"
+			},
+			"score": "eoflib.worldtime",
+			"scale": 1
+		},
+		"max": {
+			"type": "minecraft:score",
+			"target": {
+				"type": "minecraft:fixed",
+				"name": "#eoflib.worldtime.dawn"
+			},
+			"score": "eoflib.worldtime",
+			"scale": 1
+		}
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"condition": "minecraft:any_of",
+	"terms": [
+		{
+			"condition": "minecraft:reference",
+			"name": "eof:tribes/icewings"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "eof:tribes/mudwings"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "eof:tribes/nightwings"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "eof:tribes/rainwings"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "eof:tribes/sandwings"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "eof:tribes/seawings"
+		},
+		{
+			"condition": "minecraft:reference",
+			"name": "eof:tribes/skywings"
+		}
+	]
+}

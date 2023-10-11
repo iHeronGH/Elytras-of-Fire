@@ -1,0 +1,22 @@
+{
+	"parent": "eof:pyrrhian",
+	"criteria": {
+		"no_tribe": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "eof:tribes/pyrrhian"
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "eof:effects/main"
+	}
+}

@@ -1,0 +1,4 @@
+{
+	"condition": "minecraft:reference",
+	"name": "eoflib:movement/elytra_flight"
+}

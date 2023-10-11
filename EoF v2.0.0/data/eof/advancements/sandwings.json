@@ -1,0 +1,19 @@
+{
+	"parent": "eof:pyrrhian",
+	"criteria": {
+		"is_sandwing": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "eof:tribes/sandwings"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "eof:effects/main"
+	}
+}

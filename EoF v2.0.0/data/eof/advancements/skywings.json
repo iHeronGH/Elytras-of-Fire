@@ -1,0 +1,19 @@
+{
+	"parent": "eof:pyrrhian",
+	"criteria": {
+		"is_skywing": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "eof:tribes/skywings"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "eof:effects/main"
+	}
+}

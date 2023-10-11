@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:reference",
+							"name": "eof:ability/sandwings/flame_breath"
+						}
+					]
+				}
+			]
+		}
+	]
+}

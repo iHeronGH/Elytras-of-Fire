@@ -1,0 +1,19 @@
+{
+	"parent": "eof:pyrrhian",
+	"criteria": {
+		"is_seawing": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "eof:tribes/seawings"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "eof:effects/main"
+	}
+}

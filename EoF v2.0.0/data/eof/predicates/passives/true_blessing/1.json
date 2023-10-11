@@ -1,0 +1,14 @@
+[
+	{
+		"condition": "minecraft:reference",
+		"name": "eoflib:movement/sneak"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "eoflib:mainhand/ability/secondary"
+	},
+	{
+		"condition": "minecraft:reference",
+		"name": "eoflib:location/submerged_in_water"
+	}
+]

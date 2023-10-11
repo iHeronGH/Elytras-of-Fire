@@ -1,0 +1,19 @@
+{
+	"parent": "eof:pyrrhian",
+	"criteria": {
+		"is_icewing": {
+			"trigger": "minecraft:tick",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "eof:tribes/icewings"
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "eof:effects/main"
+	}
+}

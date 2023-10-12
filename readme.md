@@ -258,7 +258,7 @@ There are currently 18 unique abilities in Elytras of Fire:
 |   Shade Shackle  | [NightWings](#nightwings) |   None   |     Hold    |                          Blindness<br>Slowness 3                          |   Blindness<br>Slowness 3   |
 |    Overgrowth    |   [RainWings](#rainwings) |    24s   | Right-click |                             Resistance 2 (8s)                             |       Slowness 2 (8s)       |
 |   Desert Storm   |   [SandWings](#sandwings) |    24s   | Right-click |                     Strength 2 (10s)<br>Speed 3 (10s)                     |        Blindness (6s)       |
-| Ocean's Blessing |   [SeaWings](#seawings)   |   None   |     Hold    |                                Speed 2 (3s)                               |             None            |
+| Ocean's Blessing |   [SeaWings](#seawings)   |   None   |     Hold    |                           Speed 2 in water (3s)                           |             None            |
 |     Sky Surge    |   [SkyWings](#skywings)   |    24s   | Right-click |                    Strength 3 (8s)<br>Resistance 1 (8s)                   |             None            |
 
 <sup>4</sup>: Gives Slowness 2 from 6-10 meters away.

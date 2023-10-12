@@ -29,10 +29,10 @@ This DLC depends on [Elytras of Fire Lib](https://github.com/iHeronGH/Elytras-of
     - [Torrent](#torrent)
     - [True Blessing](#true-blessing)
     - [Skyborn](#skyborn)
-  - [Abilities](#abilities)
+  - [Abilities](#tribe-abilities)
   - [Custom Effects](#custom-effects)
 - [Planned Features](#planned-features)
-  - [Abilities](#abilities-1)
+  - [Abilities](#abilities)
 - [Other Qualities](#other-qualities)
   - [IMP Compliance](#imp-compliance)
 
@@ -76,9 +76,9 @@ There are currently 7 tribes in Elytras of Fire:
 > *\- H*
 
 Passive Abilities: [Cryoenergy](#cryoenergy)<br>
-Primary Ability: [Frost Breath](#abilities)<br>
-Secondary Ability: [Serrated Strike](#abilities)<br>
-Tertiary Ability: [Icicle Incision](#abilities)
+Primary Ability: [Frost Breath](#tribe-abilities)<br>
+Secondary Ability: [Serrated Strike](#tribe-abilities)<br>
+Tertiary Ability: [Icicle Incision](#tribe-abilities)
 
 #### MudWings
 
@@ -86,9 +86,9 @@ Tertiary Ability: [Icicle Incision](#abilities)
 > *\- H*
 
 Passive Abilities: [Rejuvenation](#rejuvenation)<br>
-Primary Ability: [Flame Breath](#abilities)<br>
-Secondary Ability: [Terrashock](#abilities)<br>
-Tertiary Ability: [Mud Swipe](#abilities)
+Primary Ability: [Flame Breath](#tribe-abilities)<br>
+Secondary Ability: [Terrashock](#tribe-abilities)<br>
+Tertiary Ability: [Mud Swipe](#tribe-abilities)
 
 #### NightWings
 
@@ -96,9 +96,9 @@ Tertiary Ability: [Mud Swipe](#abilities)
 > *\- H*
 
 Passive Abilities: [Gloom Cloak](#gloom-cloak)<br>
-Primary Ability: [Flame Breath](#abilities)<br>
-Secondary Ability: [Shade Shackle](#abilities)<br>
-Tertiary Ability: [Premonition](#abilities)
+Primary Ability: [Flame Breath](#tribe-abilities)<br>
+Secondary Ability: [Shade Shackle](#tribe-abilities)<br>
+Tertiary Ability: [Premonition](#tribe-abilities)
 
 #### RainWings
 
@@ -106,9 +106,9 @@ Tertiary Ability: [Premonition](#abilities)
 > *\- H*
 
 Passive Abilities: [Camouflage](#camouflage)<br>
-Primary Ability: [Venom Shot](#abilities)<br>
-Secondary Ability: [Overgrowth](#abilities)<br>
-Tertiary Ability: [Soul Sap](#abilities)
+Primary Ability: [Venom Shot](#tribe-abilities)<br>
+Secondary Ability: [Overgrowth](#tribe-abilities)<br>
+Tertiary Ability: [Soul Sap](#tribe-abilities)
 
 #### SandWings
 
@@ -116,9 +116,9 @@ Tertiary Ability: [Soul Sap](#abilities)
 > *\- H*
 
 Passive Abilities: [Dune Surfer](#dune-surfer)<br>
-Primary Ability: [Flame Breath](#abilities)<br>
-Secondary Ability: [Desert Storm](#abilities)<br>
-Tertiary Ability: [Toxin Slash](#abilities)
+Primary Ability: [Flame Breath](#tribe-abilities)<br>
+Secondary Ability: [Desert Storm](#tribe-abilities)<br>
+Tertiary Ability: [Toxin Slash](#tribe-abilities)
 
 #### SeaWings
 
@@ -126,9 +126,9 @@ Tertiary Ability: [Toxin Slash](#abilities)
 > *\- H*
 
 Passive Abilities: [Torrent](#torrent), [True Blessing](#true-blessing)<br>
-Primary Ability: [Tidal Wave](#abilities)<br>
-Secondary Ability: [Ocean's Blessing](#abilities)<br>
-Tertiary Ability: [Tail Flail](#abilities)
+Primary Ability: [Tidal Wave](#tribe-abilities)<br>
+Secondary Ability: [Ocean's Blessing](#tribe-abilities)<br>
+Tertiary Ability: [Tail Flail](#tribe-abilities)
 
 #### SkyWings
 
@@ -136,9 +136,9 @@ Tertiary Ability: [Tail Flail](#abilities)
 > *\- H*
 
 Passive Abilities: [Skyborn](#skyborn)<br>
-Primary Ability: [Flame Breath](#abilities)<br>
-Secondary Ability: [Sky Surge](#abilities)<br>
-Tertiary Ability: [Spark Punch](#abilities)
+Primary Ability: [Flame Breath](#tribe-abilities)<br>
+Secondary Ability: [Sky Surge](#tribe-abilities)<br>
+Tertiary Ability: [Spark Punch](#tribe-abilities)
 
 </details>
 
@@ -226,7 +226,7 @@ Skyborn is a [SkyWing](#skywings) passive ability and has two parts to it. It gi
 
 ---
 
-### Abilities
+### Tribe Abilities
 
 There are currently 18 unique abilities in Elytras of Fire:
 
@@ -241,7 +241,7 @@ There are currently 18 unique abilities in Elytras of Fire:
 | Frost Breath |                                          [IceWings](#icewings)                                         |    10s   | Sneak + Right-click |               None              |                             [Frostbite](#frostbite) (∞)<br>Mining Fatigue 2 (5s)<br>Slowness 2 (5s)<br>Weakness 1 (5s)                             |
 | Flame Breath | [MudWings](#mudwings)<br>[NightWings](#nightwings)<br>[SandWings](#sandwings)<br>[SkyWings](#skywings) |    10s   | Sneak + Right-click | Removes [Frostbite](#frostbite) |                                                Ignites those hit<br>Removes [Frostbite](#frostbite)                                                |
 |  Venom Shot  |                                         [RainWings](#rainwings)                                        |    10s   | Sneak + Right-click |               None              |                                                                    Wither 3 (3s)                                                                   |
-|  Tidal Wave  |                                          [SeaWings](#seawings)                                         |    10s   | Sneak + Right-click |               None              | Mining Fatigue 1 (4s)<br>Slowness 1 (4s)<br><br>**[Torrent](#torrent-1) 1:**<br>Poison 2 (3s)<br><br>**[Torrent](#torrent-1) 2:**<br>Poison 4 (3s) |
+|  Tidal Wave  |                                          [SeaWings](#seawings)                                         |    10s   | Sneak + Right-click |               None              | Mining Fatigue 1 (4s)<br>Slowness 1 (4s)<br><br>**[Torrent](#torrent-effect) 1:**<br>Poison 2 (3s)<br><br>**[Torrent](#torrent-effect) 2:**<br>Poison 4 (3s) |
 
 </details>
 
@@ -276,7 +276,7 @@ There are currently 18 unique abilities in Elytras of Fire:
 |   Premonition   | [NightWings](#nightwings) |    20s   |    Melee   | Blocks all incoming<br>projectiles (10s) |                                                                     None                                                                    |
 |     Soul Sap    |  [RainWings](#rainwings)  |    20s   |    Melee   |            Regeneration 3 (2s)           |                                                                     None                                                                    |
 |   Toxin Slash   |  [SandWings](#sandwings)  |   None   |    Melee   |                   None                   |                                                                Poison 1 (4s)                                                                |
-|    Tail Flail   |   [SeaWings](#seawings)   |    12s   |    Melee   |                   None                   |                                     Blindness (4s)<br><br>**[Torrent](#torrent-1) 2:**<br>Blindness (7s)                                    |
+|    Tail Flail   |   [SeaWings](#seawings)   |    12s   |    Melee   |                   None                   |                                     Blindness (4s)<br><br>**[Torrent](#torrent-effect) 2:**<br>Blindness (7s)                                    |
 |   Spark Punch   |   [SkyWings](#skywings)   |   None   |    Melee   |                   None                   |                                   **Spark Mode:**<br>Ignites those hit<br>Removes [Frostbite](#frostbite)                                   |
 
 </details>
@@ -299,12 +299,12 @@ Frostbite is a custom effect that doesn't do anything on its own; however, it ha
 
 |            Ability            | Level |             Interaction            |
 |:-----------------------------:|:-----:|:----------------------------------:|
-|   [Frost Breath](#abilities)  |   1   |        Applies Frostbite (∞)       |
-|   [Flame Breath](#abilities)  |   1   |          Removes Frostbite         |
-| [Serrated Strike](#abilities) |   1   |        Applies Frostbite (∞)       |
-| [Icicle Incision](#abilities) |   1   | Wither 2 (3s)<br>Removes Frostbite |
+|   [Frost Breath](#tribe-abilities)  |   1   |        Applies Frostbite (∞)       |
+|   [Flame Breath](#tribe-abilities)  |   1   |          Removes Frostbite         |
+| [Serrated Strike](#tribe-abilities) |   1   |        Applies Frostbite (∞)       |
+| [Icicle Incision](#tribe-abilities) |   1   | Wither 2 (3s)<br>Removes Frostbite |
 
-#### Torrent
+#### Torrent (Effect)
 
 Torrent is a custom effect that makes the user deal greater and greater damage the lower the user's health is. It also has special interactions with certain abilities.
 
@@ -315,11 +315,11 @@ Torrent is a custom effect that makes the user deal greater and greater damage t
 
 | Torrent Level |   Ability  |  Interaction  |
 |:-----:|:----------:|:-------------:|
-|   1   | [Tidal Wave](#abilities) | Poison 2 (3s) |
-|   1   | [Tidal Wave](#abilities) | Poison 4 (3s) |
-|   1   | [Tail Flail](#abilities) | Blindness (7s) |
+|   1   | [Tidal Wave](#tribe-abilities) | Poison 2 (3s) |
+|   1   | [Tidal Wave](#tribe-abilities) | Poison 4 (3s) |
+|   1   | [Tail Flail](#tribe-abilities) | Blindness (7s) |
 
-#### True Blessing
+#### True Blessing (Effect)
 
 True Blessing is a custom effect that increases the users movement speed in water immensely and gives a slow regeneration buff. Taking any damage while True Blessing is active will deactivate it until obtained again.
 

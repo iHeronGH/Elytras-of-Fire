@@ -2,7 +2,7 @@
 
 ## Welcome!
 
-Elytras of Fire is a Minecraft datapack directly inspired by the world of Wings of Fire! This datapack adds in all 7 Pyrrhian tribes, three impressive passive abilities, and more!
+Elytras of Fire is a Minecraft datapack directly inspired by the world of Wings of Fire! This datapack adds in all seven Pyrrhian tribes, three impressive passive abilities, and more!
 
 This DLC depends on [Elytras of Fire Lib](https://github.com/iHeronGH/Elytras-of-Fire-Lib) and requires its [installation](#installation-and-uninstallation) in order to be used correctly.
 
@@ -167,9 +167,9 @@ Cryoenergy is an [IceWing](#icewings) passive ability. It gives variable levels 
 
 Rejuvenation is a [MudWing](#mudwings) passive ability. It gives the user lengthy Regeneration and Speed buffs when charged in muddy areas.
 
-| Level |                        Activation                       |                Effect               | Charge Duration | Cooldown |
-|:-----:|:-------------------------------------------------------:|:-----------------------------------:|:---------------:|:--------:|
-|   1   | Charge Terrashock while on an earthy block and in water | Speed 1 (5m)<br>Regeneration 1 (3m) |        5s       |    3m    |
+| Level |                        Activation                       |                  Effect                 | Charge Duration | Cooldown |
+|:-----:|:-------------------------------------------------------:|:---------------------------------------:|:---------------:|:--------:|
+|   1   | Charge Terrashock while on an earthy block and in water | Speed 1 (5min)<br>Regeneration 1 (3min) |        5s       |    3m    |
 
 #### Gloom Cloak
 
@@ -251,17 +251,15 @@ There are currently 18 unique abilities in Elytras of Fire:
 
 [Back to top](#)
 
-|      Ability     |           Tribes          | Cooldown |  Activation |                                Self Effects                               |        Enemy Effects        |
-|:----------------:|:-------------------------:|:--------:|:-----------:|:-------------------------------------------------------------------------:|:---------------------------:|
-|  Serrated Strike |   [IceWings](#icewings)   |    24s   | Right-click |                     Strength 2 (10s)<br>Speed 1 (10s)                     | [Frostbite](#frostbite) (∞) |
-|    Terrashock    |   [MudWings](#mudwings)   |    24s   | Right-click |        Absorption 1 (10s)<br>Resistance 1 (10s)<br>Strength 3 (10s)       |       Slowness 1 (6s)       |
-|   Shade Shackle  | [NightWings](#nightwings) |   None   |     Hold    |                          Blindness<br>Slowness 3                          |   Blindness<br>Slowness 3   |
-|    Overgrowth    |   [RainWings](#rainwings) |    24s   | Right-click |                             Resistance 2 (8s)                             |       Slowness 2 (8s)       |
-|   Desert Storm   |   [SandWings](#sandwings) |    24s   | Right-click |                     Strength 2 (10s)<br>Speed 3 (10s)                     |        Blindness (6s)       |
-| Ocean's Blessing |   [SeaWings](#seawings)   |   None   |     Hold    |                           Speed 2 in water (3s)                           |             None            |
-|     Sky Surge    |   [SkyWings](#skywings)   |    24s   | Right-click |                    Strength 3 (8s)<br>Resistance 1 (8s)                   |             None            |
-
-<sup>4</sup>: Gives Slowness 2 from 6-10 meters away.
+|      Ability     |           Tribes          | Cooldown |  Activation |                         Self Effects                         |                                 Enemy Effects                                |
+|:----------------:|:-------------------------:|:--------:|:-----------:|:------------------------------------------------------------:|:----------------------------------------------------------------------------:|
+|  Serrated Strike |   [IceWings](#icewings)   |    24s   | Right-click |               Strength 2 (10s)<br>Speed 1 (10s)              |                          [Frostbite](#frostbite) (∞)                         |
+|    Terrashock    |   [MudWings](#mudwings)   |    24s   | Right-click | Absorption 1 (10s)<br>Resistance 1 (10s)<br>Strength 3 (10s) |                                Slowness 1 (6s)                               |
+|   Shade Shackle  | [NightWings](#nightwings) |   None   |     Hold    |                    Blindness<br>Slowness 3                   | Blindness<br>Slowness 3 up to 6m away (1s)<br>Slowness 2 up to 10m away (1s) |
+|    Overgrowth    |  [RainWings](#rainwings)  |    24s   | Right-click |                       Resistance 2 (8s)                      |                                Slowness 2 (8s)                               |
+|   Desert Storm   |  [SandWings](#sandwings)  |    24s   | Right-click |               Strength 2 (10s)<br>Speed 3 (10s)              |                                Blindness (6s)                                |
+| Ocean's Blessing |   [SeaWings](#seawings)   |   None   |     Hold    |     Speed 2 in water (3s)<br>Speed 4 while swimming (3s)     |                                     None                                     |
+|     Sky Surge    |   [SkyWings](#skywings)   |    24s   | Right-click |             Strength 3 (8s)<br>Resistance 1 (8s)             |                                     None                                     |
 
 </details>
 

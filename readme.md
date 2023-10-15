@@ -10,31 +10,34 @@ This DLC depends on [Elytras of Fire Lib](https://github.com/iHeronGH/Elytras-of
 
 ## Table of Contents
 
-- [Installation and Uninstallation](#installation-and-uninstallation)
-- [Features](#features)
-  - [Tribes](#tribes)
-    - [IceWings](#icewings)
-    - [MudWings](#mudwings)
-    - [NightWings](#nightwings)
-    - [RainWings](#rainwings)
-    - [SandWings](#sandwings)
-    - [SeaWings](#seawings)
-    - [SkyWings](#skywings)
-  - [Passives](#passives)
-    - [Cryoenergy](#cryoenergy)
-    - [Rejuvenation](#rejuvenation)
-    - [Gloom Cloak](#gloom-cloak)
-    - [Camouflage](#camouflage)
-    - [Dune Surfer](#dune-surfer)
-    - [Torrent](#torrent)
-    - [True Blessing](#true-blessing)
-    - [Skyborn](#skyborn)
-  - [Abilities](#tribe-abilities)
-  - [Custom Effects](#custom-effects)
-- [Planned Features](#planned-features)
-  - [Abilities](#abilities)
-- [Other Qualities](#other-qualities)
-  - [IMP Compliance](#imp-compliance)
+- [Elytras of Fire](#elytras-of-fire)
+  - [Welcome!](#welcome)
+  - [Table of Contents](#table-of-contents)
+  - [Installation and Uninstallation](#installation-and-uninstallation)
+  - [Features](#features)
+    - [Tribes](#tribes)
+      - [IceWings](#icewings)
+      - [MudWings](#mudwings)
+      - [NightWings](#nightwings)
+      - [RainWings](#rainwings)
+      - [SandWings](#sandwings)
+      - [SeaWings](#seawings)
+      - [SkyWings](#skywings)
+    - [Passives](#passives)
+      - [Cryoenergy](#cryoenergy)
+      - [Rejuvenation](#rejuvenation)
+      - [Gloom Cloak](#gloom-cloak)
+      - [Camouflage](#camouflage)
+      - [Dune Surfer](#dune-surfer)
+      - [Torrent](#torrent)
+      - [True Blessing](#true-blessing)
+      - [Skyborn](#skyborn)
+  - [Planned Features](#planned-features)
+    - [Tribe Abilities](#tribe-abilities)
+    - [Custom Effects](#custom-effects)
+      - [Frostbite](#frostbite)
+  - [Other Qualities](#other-qualities)
+    - [IMP Compliance](#imp-compliance)
 
 ---
 
@@ -52,7 +55,7 @@ And uninstalling Elytras of Fire is even simpler:
 
 1. Run the command **`/function eof:uninstall`**. This will uninstall Elytras of Fire, completely removing all elements that it uses\* without affecting any other non-dependent DLCs. And that's it!
 
-    *\*Always double-check that this DLC uninstalled correctly! Elytras of Fire does its best to remove itself and its dependencies; if you find that it did not, please [report it as a bug](https://docs.google.com/forms/d/e/1FAIpQLSfm4wEvcERhBCxIhuzV7Gi4yX_sYCBn8zpUE2acBfyOEFW7OA/viewform?usp=sf_link) on Google Forms or [create an issue](https://github.com/iHeronGH/Elytras-of-Fire/issues) over on Github.*
+ *\*Always double-check that this DLC uninstalled correctly! Elytras of Fire does its best to remove itself and its dependencies; if you find that it did not, please [report it as a bug](https://docs.google.com/forms/d/e/1FAIpQLSfm4wEvcERhBCxIhuzV7Gi4yX_sYCBn8zpUE2acBfyOEFW7OA/viewform?usp=sf_link) on Google Forms or [create an issue](https://github.com/iHeronGH/Elytras-of-Fire/issues) over on Github.*
 
 ---
 
@@ -62,7 +65,7 @@ And uninstalling Elytras of Fire is even simpler:
 
 ### Tribes
 
-There are currently 7 tribes in Elytras of Fire:
+Elytras of Fire comes with 7 tribes:
 
 <details>
 
@@ -80,6 +83,11 @@ Primary Ability: [Frost Breath](#tribe-abilities)<br>
 Secondary Ability: [Serrated Strike](#tribe-abilities)<br>
 Tertiary Ability: [Icicle Incision](#tribe-abilities)
 
+Innate Attributes:
+
+- Strength 2
+- Speed 1
+
 #### MudWings
 
 > *"The MudWings are an impressive tribe. From their exceptional fire breath and strong muscles to their ability to last impossible lengths of time underwater, their massive power is unbiased to any environment."*
@@ -89,6 +97,10 @@ Passive Abilities: [Rejuvenation](#rejuvenation)<br>
 Primary Ability: [Flame Breath](#tribe-abilities)<br>
 Secondary Ability: [Terrashock](#tribe-abilities)<br>
 Tertiary Ability: [Mud Swipe](#tribe-abilities)
+
+Innate Attributes:
+
+- Strength 2
 
 #### NightWings
 
@@ -100,6 +112,12 @@ Primary Ability: [Flame Breath](#tribe-abilities)<br>
 Secondary Ability: [Shade Shackle](#tribe-abilities)<br>
 Tertiary Ability: [Premonition](#tribe-abilities)
 
+Innate Attributes:
+
+- Speed 1
+- Strength 1
+- Night Vision
+
 #### RainWings
 
 > *"The RainWings are, at least chromatically, the most brilliant of the Pyrrhian tribes. When paired with their extremely lethal venom, the ability to camouflage grants them amazing advantages over their enemies."*
@@ -109,6 +127,10 @@ Passive Abilities: [Camouflage](#camouflage)<br>
 Primary Ability: [Venom Shot](#tribe-abilities)<br>
 Secondary Ability: [Overgrowth](#tribe-abilities)<br>
 Tertiary Ability: [Soul Sap](#tribe-abilities)
+
+Innate Attributes:
+
+- Speed 2
 
 #### SandWings
 
@@ -120,6 +142,11 @@ Primary Ability: [Flame Breath](#tribe-abilities)<br>
 Secondary Ability: [Desert Storm](#tribe-abilities)<br>
 Tertiary Ability: [Toxin Slash](#tribe-abilities)
 
+Innate Attributes:
+
+- Speed 1
+- Strength 1
+
 #### SeaWings
 
 > *"The SeaWings are the uncontested rulers of the seas. Their keen eyes allow them to see in the dark, and over many millenia have adapted glowing scales, strong tails, gills, and webbed talons. No attack on the SeaWings has gone without heavy loss."*
@@ -129,6 +156,12 @@ Passive Abilities: [Torrent](#torrent), [True Blessing](#true-blessing)<br>
 Primary Ability: [Tidal Wave](#tribe-abilities)<br>
 Secondary Ability: [Ocean's Blessing](#tribe-abilities)<br>
 Tertiary Ability: [Tail Flail](#tribe-abilities)
+
+Innate Attributes:
+
+- Night Vision
+- Conduit Power in water
+- Speed 2 while swimming
 
 #### SkyWings
 
@@ -140,13 +173,18 @@ Primary Ability: [Flame Breath](#tribe-abilities)<br>
 Secondary Ability: [Sky Surge](#tribe-abilities)<br>
 Tertiary Ability: [Spark Punch](#tribe-abilities)
 
+Innate Attributes:
+
+- Speed 3
+- Strength 1
+
 </details>
 
 ---
 
 ### Passives
 
-There are currently 8 passive abilities in Elytras of Fire:
+Elytras of Fire comes with 8 passive abilities:
 
 <details>
 
@@ -158,77 +196,87 @@ There are currently 8 passive abilities in Elytras of Fire:
 
 Cryoenergy is an [IceWing](#icewings) passive ability. It gives variable levels of Speed depending on the type of block the user is standing on.
 
-| Level |   Activation  |    Effect    | Charge Duration | Cooldown |
-|:-----:|:-------------:|:------------:|:---------------:|:--------:|
-|   1   |  Stand on ice | Speed 2 (1s) |       None      |   None   |
-|   2   | Stand on snow | Speed 3 (1s) |       None      |   None   |
+| Level |  Activation   |    Effect    | Charge Duration | Cooldown |
+| :---: | :-----------: | :----------: | :-------------: | :------: |
+|   1   | Stand on ice  | Speed 2 (1s) |       ---       |   ---    |
+|   2   | Stand on snow | Speed 3 (1s) |       ---       |   ---    |
 
 #### Rejuvenation
 
 Rejuvenation is a [MudWing](#mudwings) passive ability. It gives the user lengthy Regeneration and Speed buffs when charged in muddy areas.
 
-| Level |                        Activation                       |                  Effect                 | Charge Duration | Cooldown |
-|:-----:|:-------------------------------------------------------:|:---------------------------------------:|:---------------:|:--------:|
-|   1   | Charge Terrashock while on an earthy block and in water | Speed 1 (5min)<br>Regeneration 1 (3min) |        5s       |    3m    |
+| Level |                                 Activation                                  |                 Effect                  | Charge Duration | Cooldown |
+| :---: | :-------------------------------------------------------------------------: | :-------------------------------------: | :-------------: | :------: |
+|   1   | Charge [Terrashock](#tribe-abilities) while on an earthy block and in water | Speed 1 (5min)<br>Regeneration 1 (3min) |       5s        |    3m    |
 
 #### Gloom Cloak
 
 Gloom Cloak is a [NightWing](#nightwings) passive ability. It gives variable levels of Speed depending on the time of day.
 
-| Level |                     Activation                     |    Effect    | Charge Duration | Cooldown |
-|:-----:|:--------------------------------------------------:|:------------:|:---------------:|:--------:|
-|   1   |    Time is between dusk (12000) and dawn (24000)   | Speed 2 (1s) |       None      |   None   |
-|   2   | Time is between sunset (14400) and sunrise (21600) | Speed 3 (1s) |       None      |   None   |
+| Level |             Activation             |    Effect    | Charge Duration | Cooldown |
+| :---: | :--------------------------------: | :----------: | :-------------: | :------: |
+|   1   |   Time is between dusk and dawn    | Speed 2 (1s) |       ---       |   ---    |
+|   2   | Time is between sunset and sunrise | Speed 3 (1s) |       ---       |   ---    |
 
 #### Camouflage
 
 Camouflage is a [RainWing](#rainwings) passive ability. It gives Invisibility and increased Speed depending on the type of block the user is standing on or as the user sneaks around.
 
-| Level |                     Activation                     |               Effect              | Charge Duration | Cooldown |
-|:-----:|:--------------------------------------------------:|:---------------------------------:|:---------------:|:--------:|
-|   1   |          Sneak *or* stand on a flora block         | Speed 3 (1s)<br>Invisibility (1s) |       None      |   None   |
+| Level |            Activation             |              Effect               | Charge Duration | Cooldown |
+| :---: | :-------------------------------: | :-------------------------------: | :-------------: | :------: |
+|   1   | Sneak *or* stand on a flora block | Speed 3 (1s)<br>Invisibility (1s) |       ---       |   ---    |
 
 #### Dune Surfer
 
 Dune Surfer is a [SandWing](#sandwings) passive ability. It gives increased Speed depending on the type of block the user is standing on.
 
-| Level |                     Activation                     |    Effect    | Charge Duration | Cooldown |
-|:-----:|:--------------------------------------------------:|:------------:|:---------------:|:--------:|
-|   1   |               Stand on a desert block              | Speed 3 (1s) |       None      |   None   |
+| Level |       Activation        |    Effect    | Charge Duration | Cooldown |
+| :---: | :---------------------: | :----------: | :-------------: | :------: |
+|   1   | Stand on a desert block | Speed 3 (1s) |       ---       |   ---    |
 
 #### Torrent
 
-Torrent is a [SeaWing](#seawings) passive ability. It gives the user greater and greater Strength the lower their health is.
+Torrent is a [SeaWing](#seawings) passive ability. It gives the user greater and greater Strength the lower their health is and has special interactions with certain abilities.
 
-| Level |          Activation         |      Effect     | Charge Duration | Cooldown |
-|:-----:|:---------------------------:|:---------------:|:---------------:|:--------:|
-|   1   | Health is 7 hearts or lower | Strength 1 (1s) |       None      |   None   |
-|   2   | Health is 4 hearts or lower | Strength 2 (1s) |       None      |   None   |
+| Level |         Activation          |     Effect      | Charge Duration | Cooldown |
+| :---: | :-------------------------: | :-------------: | :-------------: | :------: |
+|   1   | Health is 7 hearts or lower | Strength 1 (1s) |       ---       |   ---    |
+|   2   | Health is 4 hearts or lower | Strength 2 (1s) |       ---       |   ---    |
+
+| Level |            Ability             |  Interaction   |
+| :---: | :----------------------------: | :------------: |
+|   1   | [Tidal Wave](#tribe-abilities) | Poison 2 (3s)  |
+|   1   | [Tidal Wave](#tribe-abilities) | Poison 4 (3s)  |
+|   1   | [Tail Flail](#tribe-abilities) | Blindness (7s) |
 
 #### True Blessing
 
 True Blessing is a [SeaWing](#seawings) passive ability. It gives the user vastly improved water movement speeds and a slight regeneration buff when charged under water.
 
-| Level |                    Activation                    |                                                Effect                                               | Charge Duration | Cooldown |
-|:-----:|:------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:---------------:|:--------:|
-|   1   | Charge Ocean's Blessing while submerged in water | Dolphin's Grace (1s) while swimming<br>Speed 4 (4s) while swimming<br>Regeneration 1 (3s) every 15s |        5s       |   None   |
+| Level |                              Activation                              |                                               Effect                                                | Charge Duration | Cooldown |
+| :---: | :------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------: | :-------------: | :------: |
+|   1   | Charge [Ocean's Blessing](#tribe-abilities) while submerged in water | Dolphin's Grace (1s) while swimming<br>Speed 4 (4s) while swimming<br>Regeneration 1 (3s) every 15s |       5s        |   ---    |
 
 #### Skyborn
 
 Skyborn is a [SkyWing](#skywings) passive ability and has two parts to it. It gives the user the ability to jump extremely high when charged and can be activated mid-elytra flight to grant a short Regeneration buff.
 
-| Level |                     Activation                     |    Effect    | Charge Duration | Cooldown |
-|:-----:|:--------------------------------------------------:|:------------:|:---------------:|:--------:|
-|   1   |    Time is between dusk (12000) and dawn (24000)   | Speed 2 (1s) |       None      |   None   |
-|   2   | Time is between sunset (14400) and sunrise (21600) | Speed 3 (1s) |       None      |   None   |
+| Level |             Activation             |    Effect    | Charge Duration | Cooldown |
+| :---: | :--------------------------------: | :----------: | :-------------: | :------: |
+|   1   |   Time is between dusk and dawn    | Speed 2 (1s) |       ---       |   ---    |
+|   2   | Time is between sunset and sunrise | Speed 3 (1s) |       ---       |   ---    |
 
 </details>
 
 ---
 
+## Planned Features
+
+[Back to top](#)
+
 ### Tribe Abilities
 
-There are currently 18 unique abilities in Elytras of Fire:
+There are currently 18 unique abilities planned to be in Elytras of Fire:
 
 <details>
 
@@ -236,12 +284,12 @@ There are currently 18 unique abilities in Elytras of Fire:
 
 [Back to top](#)
 
-|    Ability   |                                                 Tribes                                                 | Cooldown |      Activation     |           Self Effects          |                                                                    Enemy Effects                                                                   |
-|:------------:|:------------------------------------------------------------------------------------------------------:|:--------:|:-------------------:|:-------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------:|
-| Frost Breath |                                          [IceWings](#icewings)                                         |    10s   | Sneak + Right-click |               None              |                             [Frostbite](#frostbite) (∞)<br>Mining Fatigue 2 (5s)<br>Slowness 2 (5s)<br>Weakness 1 (5s)                             |
-| Flame Breath | [MudWings](#mudwings)<br>[NightWings](#nightwings)<br>[SandWings](#sandwings)<br>[SkyWings](#skywings) |    10s   | Sneak + Right-click | Removes [Frostbite](#frostbite) |                                                Ignites those hit<br>Removes [Frostbite](#frostbite)                                                |
-|  Venom Shot  |                                         [RainWings](#rainwings)                                        |    10s   | Sneak + Right-click |               None              |                                                                    Wither 3 (3s)                                                                   |
-|  Tidal Wave  |                                          [SeaWings](#seawings)                                         |    10s   | Sneak + Right-click |               None              | Mining Fatigue 1 (4s)<br>Slowness 1 (4s)<br><br>**[Torrent](#torrent-effect) 1:**<br>Poison 2 (3s)<br><br>**[Torrent](#torrent-effect) 2:**<br>Poison 4 (3s) |
+|   Ability    |                                                 Tribes                                                 | Cooldown |     Activation      |          Self Effects           |                                                                 Enemy Effects                                                                  |
+| :----------: | :----------------------------------------------------------------------------------------------------: | :------: | :-----------------: | :-----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------: |
+| Frost Breath |                                         [IceWings](#icewings)                                          |   10s    | Sneak + Right-click |               ---               |                           [Frostbite](#frostbite) (∞)<br>Mining Fatigue 2 (5s)<br>Slowness 2 (5s)<br>Weakness 1 (5s)                           |
+| Flame Breath | [MudWings](#mudwings)<br>[NightWings](#nightwings)<br>[SandWings](#sandwings)<br>[SkyWings](#skywings) |   10s    | Sneak + Right-click | Removes [Frostbite](#frostbite) |                                              Ignites those hit<br>Removes [Frostbite](#frostbite)                                              |
+|  Venom Shot  |                                        [RainWings](#rainwings)                                         |   10s    | Sneak + Right-click |               ---               |                                                                 Wither 3 (3s)                                                                  |
+|  Tidal Wave  |                                         [SeaWings](#seawings)                                          |   10s    | Sneak + Right-click |               ---               | Mining Fatigue 1 (4s)<br>Slowness 1 (4s)<br><br>**[Torrent](#torrent) 1:**<br>Poison 2 (3s)<br><br>**[Torrent](#torrent) 2:**<br>Poison 4 (3s) |
 
 </details>
 
@@ -251,15 +299,15 @@ There are currently 18 unique abilities in Elytras of Fire:
 
 [Back to top](#)
 
-|      Ability     |           Tribes          | Cooldown |  Activation |                         Self Effects                         |                                 Enemy Effects                                |
-|:----------------:|:-------------------------:|:--------:|:-----------:|:------------------------------------------------------------:|:----------------------------------------------------------------------------:|
-|  Serrated Strike |   [IceWings](#icewings)   |    24s   | Right-click |               Strength 2 (10s)<br>Speed 1 (10s)              |                          [Frostbite](#frostbite) (∞)                         |
-|    Terrashock    |   [MudWings](#mudwings)   |    24s   | Right-click | Absorption 1 (10s)<br>Resistance 1 (10s)<br>Strength 3 (10s) |                                Slowness 1 (6s)                               |
-|   Shade Shackle  | [NightWings](#nightwings) |   None   |     Hold    |                    Blindness<br>Slowness 3                   | Blindness<br>Slowness 3 up to 6m away (1s)<br>Slowness 2 up to 10m away (1s) |
-|    Overgrowth    |  [RainWings](#rainwings)  |    24s   | Right-click |                       Resistance 2 (8s)                      |                                Slowness 2 (8s)                               |
-|   Desert Storm   |  [SandWings](#sandwings)  |    24s   | Right-click |               Strength 2 (10s)<br>Speed 3 (10s)              |                                Blindness (6s)                                |
-| Ocean's Blessing |   [SeaWings](#seawings)   |   None   |     Hold    |     Speed 2 in water (3s)<br>Speed 4 while swimming (3s)     |                                     None                                     |
-|     Sky Surge    |   [SkyWings](#skywings)   |    24s   | Right-click |             Strength 3 (8s)<br>Resistance 1 (8s)             |                                     None                                     |
+|     Ability      |          Tribes           | Cooldown | Activation  |                         Self Effects                         |                                Enemy Effects                                 |
+| :--------------: | :-----------------------: | :------: | :---------: | :----------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| Serrated Strike  |   [IceWings](#icewings)   |   24s    | Right-click |              Strength 2 (10s)<br>Speed 1 (10s)               |                         [Frostbite](#frostbite) (∞)                          |
+|    Terrashock    |   [MudWings](#mudwings)   |   24s    | Right-click | Absorption 1 (10s)<br>Resistance 1 (10s)<br>Strength 3 (10s) |                               Slowness 1 (6s)                                |
+|  Shade Shackle   | [NightWings](#nightwings) |   ---    |    Hold     |                 Blindness<br>Slowness 3 (1s)                 | Blindness<br>Slowness 3 up to 6m away (2s)<br>Slowness 2 up to 10m away (1s) |
+|    Overgrowth    |  [RainWings](#rainwings)  |   24s    | Right-click |                      Resistance 2 (8s)                       |                               Slowness 2 (8s)                                |
+|   Desert Storm   |  [SandWings](#sandwings)  |   24s    | Right-click |              Strength 2 (10s)<br>Speed 3 (10s)               |                                Blindness (6s)                                |
+| Ocean's Blessing |   [SeaWings](#seawings)   |   ---    |    Hold     |     Speed 2 in water (3s)<br>Speed 4 while swimming (3s)     |                                     ---                                      |
+|    Sky Surge     |   [SkyWings](#skywings)   |   24s    | Right-click |             Strength 3 (8s)<br>Resistance 1 (8s)             |                                     ---                                      |
 
 </details>
 
@@ -269,15 +317,16 @@ There are currently 18 unique abilities in Elytras of Fire:
 
 [Back to top](#)
 
-|     Ability     |           Tribes          | Cooldown | Activation |               Self Effects               |                                                                Enemy Effects                                                                |
-|:---------------:|:-------------------------:|:--------:|:----------:|:----------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|
-| Icicle Incision |   [IceWings](#icewings)   |   None   |    Melee   |                   None                   | Removes [Frostbite](#frostbite)<br><br>**On Non-Frostbitten Enemies:**<br>Poison 3 (1s)<br><br>**On Frostbitten Enemies:**<br>Wither 2 (3s) |
-|    Mud Swipe    |   [MudWings](#mudwings)   |    12s   |    Melee   |                   None                   |                                                      Slowness 1 (6s)<br>Weakness 1 (4s)                                                     |
-|   Premonition   | [NightWings](#nightwings) |    20s   |    Melee   | Blocks all incoming<br>projectiles (10s) |                                                                     None                                                                    |
-|     Soul Sap    |  [RainWings](#rainwings)  |    20s   |    Melee   |            Regeneration 3 (2s)           |                                                                     None                                                                    |
-|   Toxin Slash   |  [SandWings](#sandwings)  |   None   |    Melee   |                   None                   |                                                                Poison 1 (4s)                                                                |
-|    Tail Flail   |   [SeaWings](#seawings)   |    12s   |    Melee   |                   None                   |                                     Blindness (4s)<br><br>**[Torrent](#torrent-effect) 2:**<br>Blindness (7s)                                    |
-|   Spark Punch   |   [SkyWings](#skywings)   |   None   |    Melee   |                   None                   |                                   **Spark Mode:**<br>Ignites those hit<br>Removes [Frostbite](#frostbite)                                   |
+|     Ability     |          Tribes           | Cooldown | Activation  |               Self Effects                |                                                              Enemy Effects                                                              |
+| :-------------: | :-----------------------: | :------: | :---------: | :---------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+| Icicle Incision |   [IceWings](#icewings)   |   ---    |    Melee    |                    ---                    | **On Non-Frostbitten Enemies:**<br>Poison 3 (1s)<br><br>**On Frostbitten Enemies:**<br>Wither 2 (3s)<br>Removes [Frostbite](#frostbite) |
+|    Mud Swipe    |   [MudWings](#mudwings)   |   12s    |    Melee    |                    ---                    |                                                   Slowness 1 (6s)<br>Weakness 1 (4s)                                                    |
+|   Premonition   | [NightWings](#nightwings) |   20s    |    Melee    | Blocks all incoming<br>projectiles (10s)  |                                                                   ---                                                                   |
+|    Soul Sap     |  [RainWings](#rainwings)  |   20s    |    Melee    |            Regeneration 3 (2s)            |                                                                   ---                                                                   |
+|   Toxin Slash   |  [SandWings](#sandwings)  |   ---    |    Melee    |                    ---                    |                                                              Poison 1 (4s)                                                              |
+|   Tail Flail    |   [SeaWings](#seawings)   |   12s    |    Melee    |                    ---                    |                                   Blindness (4s)<br><br>**[Torrent](#torrent) 2:**<br>Blindness (7s)                                    |
+|   Spark Punch   |   [SkyWings](#skywings)   |   ---    |    Melee    | **Smite Mode:**<br>Increased attack rate  |                                 **Spark Mode:**<br>Ignites those hit<br>Removes [Frostbite](#frostbite)                                 |
+|   Spark Punch   |   [SkyWings](#skywings)   |   ---    | Right-click | Toggles between Spark mode and Smite mode |                                                                   ---                                                                   |
 
 </details>
 
@@ -285,7 +334,7 @@ There are currently 18 unique abilities in Elytras of Fire:
 
 ### Custom Effects
 
-There are currently 3 custom effects in Elytras of Fire:
+There is currently 1 custom effect planned to be in Elytras of Fire:
 
 <details>
 
@@ -297,47 +346,14 @@ There are currently 3 custom effects in Elytras of Fire:
 
 Frostbite is a custom effect that doesn't do anything on its own; however, it has special interactions with other abilities.
 
-|            Ability            | Level |             Interaction            |
-|:-----------------------------:|:-----:|:----------------------------------:|
-|   [Frost Breath](#tribe-abilities)  |   1   |        Applies Frostbite (∞)       |
-|   [Flame Breath](#tribe-abilities)  |   1   |          Removes Frostbite         |
-| [Serrated Strike](#tribe-abilities) |   1   |        Applies Frostbite (∞)       |
+|               Ability               | Level |            Interaction             |
+| :---------------------------------: | :---: | :--------------------------------: |
+|  [Frost Breath](#tribe-abilities)   |   1   |       Applies Frostbite (∞)        |
+|  [Flame Breath](#tribe-abilities)   |   1   |         Removes Frostbite          |
+| [Serrated Strike](#tribe-abilities) |   1   |       Applies Frostbite (∞)        |
 | [Icicle Incision](#tribe-abilities) |   1   | Wither 2 (3s)<br>Removes Frostbite |
 
-#### Torrent (Effect)
-
-Torrent is a custom effect that makes the user deal greater and greater damage the lower the user's health is. It also has special interactions with certain abilities.
-
-| Torrent Level | Health Threshold | Damage Increase |
-|:-------------:|:----------------:|:---------------:|
-|       1       |     7 hearts     |        +3       |
-|       2       |     4 hearts     |        +6       |
-
-| Torrent Level |   Ability  |  Interaction  |
-|:-----:|:----------:|:-------------:|
-|   1   | [Tidal Wave](#tribe-abilities) | Poison 2 (3s) |
-|   1   | [Tidal Wave](#tribe-abilities) | Poison 4 (3s) |
-|   1   | [Tail Flail](#tribe-abilities) | Blindness (7s) |
-
-#### True Blessing (Effect)
-
-True Blessing is a custom effect that increases the users movement speed in water immensely and gives a slow regeneration buff. Taking any damage while True Blessing is active will deactivate it until obtained again.
-
-| True Blessing Level |                                               Effects                                               |
-|:-------------------:|:---------------------------------------------------------------------------------------------------:|
-|          1          | Dolphin's Grace (1s) while swimming<br>Speed 4 (4s) while swimming<br>Regeneration 1 (3s) every 15s |
-
 </details>
-
----
-
-## Planned Features
-
-[Back to top](#)
-
-### Abilities
-
-Arguably one of the most major parts of Elytras of Fire, abilities will be coming soon!
 
 ---
 
@@ -351,7 +367,7 @@ The following features of Elytras of Fire are listed to prove [IMP compliance](h
 
 > Core Standards: [Leave vanilla alone](https://github.com/Arcensoth/imp-spec/blob/master/docs/imp_core.md#1-leave-vanilla-alone)
 
-No changes are made to the **`minecraft`** namespace.
+No overwriting changes are made to the **`minecraft`** namespace.
 
 > Core Standards: [Namespace everything](https://github.com/Arcensoth/imp-spec/blob/master/docs/imp_core.md#2-namespace-everything)
 

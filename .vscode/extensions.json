@@ -1,0 +1,12 @@
+{
+	"recommendations": [
+		"yzhang.markdown-all-in-one",
+		"spgoding.datapack-language-server",
+		"superant.mc-dp-icons",
+		"mhutchie.git-graph",
+		"davidanson.vscode-markdownlint",
+		"chencmd.mc-datapack-utility",
+		"christian-kohler.path-intellisense",
+		"minecraftcommands.syntax-mcfunction"
+	]
+}

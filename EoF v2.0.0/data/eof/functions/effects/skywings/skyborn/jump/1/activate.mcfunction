@@ -4,7 +4,7 @@
 
 #region
 	# Announce Activation
-title @s actionbar {"text":"Skyborn charged!","color":"dark_red"}
+title @s actionbar {"text":"Skyborn charged!", "color":"dark_red"}
 
 	# Effect Entities
 effect give @s jump_boost 10 9 true

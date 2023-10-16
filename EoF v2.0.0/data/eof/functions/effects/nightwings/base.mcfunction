@@ -3,12 +3,12 @@
 # Grants base Nightwing effects.
 
 #region
-	# Base Effects
+	# Base effects
 effect give @a[predicate=eof:tribes/nightwings, tag=eoflib.atts] speed 1 0 true
 effect give @a[predicate=eof:tribes/nightwings, tag=eoflib.atts] strength 1 0 true
 effect give @a[predicate=eof:tribes/nightwings, tag=eoflib.atts] night_vision 12 0 true
 
-	# Check for Gloom Cloak Effects
+	# Check for Gloom Cloak effects
 execute if entity @a[predicate=eof:tribes/nightwings, predicate=eof:passives/gloom_cloak/1, tag=eoflib.atts] run function eof:effects/nightwings/gloom_cloak/1
 execute if entity @a[predicate=eof:tribes/nightwings, predicate=eof:passives/gloom_cloak/2, tag=eoflib.atts] run function eof:effects/nightwings/gloom_cloak/2
 

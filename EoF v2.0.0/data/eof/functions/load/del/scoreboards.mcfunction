@@ -1,6 +1,6 @@
 #> eof:load/del/scoreboards
 #
-# Delete scoreboards for the Elytras of Fire tribes.
+# Delete scoreboards from Elytras of Fire.
 
 #region
 	# Scoreboards

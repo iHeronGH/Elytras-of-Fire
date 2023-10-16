@@ -6,6 +6,9 @@
 	# Clear other advancements
 function #eoflib:reset/tribe_advancements
 
+	# Clear other cooldowns
+function #eoflib:reset/cooldowns
+
 	# Determine effects based on tribe
 execute if entity @s[predicate=eof:tribes/icewings, tag=eoflib.atts] run function eof:effects/icewings/base
 execute if entity @s[predicate=eof:tribes/mudwings, tag=eoflib.atts] run function eof:effects/mudwings/base

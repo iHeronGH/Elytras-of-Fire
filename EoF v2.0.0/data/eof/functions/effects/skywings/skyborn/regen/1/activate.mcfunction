@@ -4,7 +4,7 @@
 
 #region
 	# Announce Activation
-title @s actionbar {"text":"Skyborn activated!","color":"dark_red"}
+title @s actionbar {"text":"Skyborn activated!", "color":"dark_red"}
 
 	# Effect Players
 effect give @s regeneration 12 1 true

@@ -4,8 +4,8 @@
 
 #region
 	# Announce Deactivation
-execute if entity @s[tag=!eof.passives.skyborn.active] run title @s actionbar {"text":"Skyborn charge failed!","color":"dark_red"}
-execute if entity @s[tag=eof.passives.skyborn.active] run title @s actionbar {"text":"Skyborn charge ready!","color":"dark_red"}
+execute if entity @s[tag=!eof.passives.skyborn.active] run title @s actionbar {"text":"Skyborn charge failed!", "color":"dark_red"}
+execute if entity @s[tag=eof.passives.skyborn.active] run title @s actionbar {"text":"Skyborn charge ready!", "color":"dark_red"}
 
 	# Remove Tags
 tag @s remove eof.passives.skyborn.init

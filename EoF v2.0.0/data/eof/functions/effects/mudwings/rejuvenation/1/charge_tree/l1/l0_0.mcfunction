@@ -4,7 +4,7 @@
 
 #region
 	# Charge Tree Layer 0
-execute if score @s eof.passives.rejuvenation matches 1..360 run title @s actionbar [{"text":"[","color":"dark_gray"},{"text":"█","color":"red"},{"text":"█████████","color":"#602020"},"]"]
-execute if score @s eof.passives.rejuvenation matches 361..720 run title @s actionbar [{"text":"[","color":"dark_gray"},{"text":"██","color":"red"},{"text":"████████","color":"#602020"},"]"]
+execute if score @s eof.passives.rejuvenation matches 1..360 run title @s actionbar [{"text":"[", "color":"dark_gray"},{"text":"█", "color":"red"},{"text":"█████████", "color":"#602020"},"]"]
+execute if score @s eof.passives.rejuvenation matches 361..720 run title @s actionbar [{"text":"[", "color":"dark_gray"},{"text":"██", "color":"red"},{"text":"████████", "color":"#602020"},"]"]
 
 #endregion

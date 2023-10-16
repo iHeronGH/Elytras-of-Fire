@@ -4,7 +4,7 @@
 
 #region
 	# Announce Deactivation
-title @s actionbar {"text":"Skyborn ready!","color":"dark_red"}
+title @s actionbar {"text":"Skyborn ready!", "color":"dark_red"}
 
 	# Remove Tag
 tag @s remove eof.passives.skyborn.regen

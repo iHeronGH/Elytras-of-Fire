@@ -4,7 +4,7 @@
 
 #region
 	# Announce Activation
-title @s actionbar {"text":"Rejuvenation charged!","color":"red"}
+title @s actionbar {"text":"Rejuvenation charged!", "color":"red"}
 
 	# Effect Entities
 effect give @s regeneration 300 0 true

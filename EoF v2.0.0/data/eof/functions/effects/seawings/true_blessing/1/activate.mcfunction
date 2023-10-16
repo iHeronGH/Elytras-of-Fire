@@ -4,7 +4,7 @@
 
 #region
 	# Announce Activation
-title @s actionbar {"text":"True Blessing charged!","color":"dark_aqua"}
+title @s actionbar {"text":"True Blessing charged!", "color":"dark_aqua"}
 
 	# Effect Entities
 function eof:effects/seawings/true_blessing/1

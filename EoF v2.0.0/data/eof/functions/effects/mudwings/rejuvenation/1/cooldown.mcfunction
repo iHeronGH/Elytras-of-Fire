@@ -10,6 +10,6 @@ scoreboard players remove @a[tag=eof.passives.rejuvenation.active, scores={eof.p
 execute if entity @a[tag=eof.passives.rejuvenation.active, scores={eof.passives.rejuvenation=0}] as @a[tag=eof.passives.rejuvenation.active, scores={eof.passives.rejuvenation=0}] run function eof:effects/mudwings/rejuvenation/1/deactivate
 
 	# Loop
-execute if entity @a[tag=eof.passives.rejuvenation.active, scores={eof.passives.rejuvenation=1..}] run schedule function eof:effects/mudwings/rejuvenation/1/cooldown 36t
+execute if entity @a[tag=eof.passives.rejuvenation.active, scores={eof.passives.rejuvenation=1..}] run schedule function eof:effects/mudwings/rejuvenation/1/cooldown 1t
 
 #endregion

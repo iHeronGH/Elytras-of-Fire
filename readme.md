@@ -101,6 +101,7 @@ Tertiary Ability: [Mud Swipe](#tribe-abilities)
 Innate Attributes:
 
 - Strength 2
+- Speed 1 while submerged in water
 
 #### NightWings
 
@@ -207,7 +208,7 @@ Rejuvenation is a [MudWing](#mudwings) passive ability. It gives the user length
 
 | Level |                                 Activation                                  |                 Effect                  | Charge Duration | Cooldown |
 | :---: | :-------------------------------------------------------------------------: | :-------------------------------------: | :-------------: | :------: |
-|   1   | Charge [Terrashock](#tribe-abilities) while on an earthy block and in water | Speed 1 (5min)<br>Regeneration 1 (3min) |       5s        |    3m    |
+|   1   | Charge [Terrashock](#tribe-abilities) while on an earthy block and in water | Speed 1 (5min)<br>Speed 2 when submerged in water (3s)<br>Regeneration 1 (5min) |       5s        |    3m    |
 
 #### Gloom Cloak
 

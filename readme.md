@@ -26,6 +26,7 @@ This DLC depends on [Elytras of Fire Lib](https://github.com/iHeronGH/Elytras-of
     - [Passives](#passives)
       - [Cryoenergy](#cryoenergy)
       - [Rejuvenation](#rejuvenation)
+      - [Sibling Bond](#sibling-bond)
       - [Gloom Cloak](#gloom-cloak)
       - [Camouflage](#camouflage)
       - [Dune Surfer](#dune-surfer)
@@ -93,7 +94,7 @@ Innate Attributes:
 > *"The MudWings are an impressive tribe. From their exceptional fire breath and strong muscles to their ability to last impossible lengths of time underwater, their massive power is unbiased to any environment."*
 > *\- H*
 
-Passive Abilities: [Rejuvenation](#rejuvenation), [Sibling Bomb](#sibling-bond)<br>
+Passive Abilities: [Rejuvenation](#rejuvenation), [Sibling Bond](#sibling-bond)<br>
 Primary Ability: [Flame Breath](#tribe-abilities)<br>
 Secondary Ability: [Terrashock](#tribe-abilities)<br>
 Tertiary Ability: [Mud Swipe](#tribe-abilities)

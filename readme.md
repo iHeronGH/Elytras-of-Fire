@@ -224,11 +224,11 @@ Sibling Bond is a [MudWing](#mudwings) passive ability. It gives variable levels
 
 Gloom Cloak is a [NightWing](#nightwings) passive ability. It gives variable levels of Speed depending on the time of day.
 
-| Level |                  Activation                  |      Effect       | Charge Duration | Cooldown |
-| :---: | :------------------------------------------: | :---------------: | :-------------: | :------: |
-|   1   |        Time is between dusk and dawn         |   Speed 2 (1s)    |       ---       |   ---    |
-|   2   |      Time is between sunset and sunrise      |   Speed 3 (1s)    |       ---       |   ---    |
-|   2   | Time is between sunset and sunrise and sneak | Invisibility (1s) |       ---       |   ---    |
+| Level |                   Activation                   |      Effect       | Charge Duration | Cooldown |
+| :---: | :--------------------------------------------: | :---------------: | :-------------: | :------: |
+|   1   |         Time is between dusk and dawn          |   Speed 2 (1s)    |       ---       |   ---    |
+|   2   |       Time is between sunset and sunrise       |   Speed 3 (1s)    |       ---       |   ---    |
+|   2   | Sneak while time is between sunset and sunrise | Invisibility (1s) |       ---       |   ---    |
 
 #### Camouflage
 
@@ -273,10 +273,10 @@ True Blessing is a [SeaWing](#seawings) passive ability. It gives the user vastl
 
 Skyborn is a [SkyWing](#skywings) passive ability and has two parts to it. It gives the user the ability to jump extremely high when charged and can be activated mid-elytra flight to grant a short Regeneration buff.
 
-| Level |             Activation             |    Effect    | Charge Duration | Cooldown |
-| :---: | :--------------------------------: | :----------: | :-------------: | :------: |
-|   1   |   Time is between dusk and dawn    | Speed 2 (1s) |       ---       |   ---    |
-|   2   | Time is between sunset and sunrise | Speed 3 (1s) |       ---       |   ---    |
+| Level |      Activation      |        Effect        | Charge Duration | Cooldown |
+| :---: | :------------------: | :------------------: | :-------------: | :------: |
+|   1   |   Charge Sky Surge   | Jump Boost 10 (10s)  |       5s        |   ---    |
+|   1   | Begin elytra gliding | Regeneration 2 (12s) |       ---       |   40s    |
 
 </details>
 

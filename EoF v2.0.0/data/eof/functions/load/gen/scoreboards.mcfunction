@@ -8,6 +8,9 @@
 #define objective eof.passives.rejuvenation Stores Rejuvenation scores.
 scoreboard objectives add eof.passives.rejuvenation dummy
 
+#define objective eof.passives.sibling_bond Stores Sibling Bond scores.
+scoreboard objectives add eof.passives.sibling_bond dummy
+
 #define objective eof.passives.skyborn.jump Stores Skyborn Jump scores.
 scoreboard objectives add eof.passives.skyborn.jump dummy
 
@@ -26,6 +29,10 @@ scoreboard objectives add eof.passives.true_blessing dummy
 execute unless score _eoflib.dlc.eof eoflib.dlcs = _eoflib.dlc.eof eoflib.dlcs run scoreboard players set _eoflib.dlc.eof eoflib.dlcs 1
 
 		## Passive Vars
+			### Sibling Bond
+#define score_holder #eof.passives.sibling_bond.1 Sets the minimum player threshold for Sibling Bond 1.
+execute unless score #eof.passives.sibling_bond.1 eof.passives.sibling_bond = #eof.passives.sibling_bond.1 eof.passives.sibling_bond run scoreboard players set #eof.passives.sibling_bond.1 eof.passives.sibling_bond 2
+
 			### Torrent
 #define score_holder #eof.passives.torrent.1 Sets the maximum health threshold for Torrent 1.
 execute unless score #eof.passives.torrent.1 eof.passives.torrent = #eof.passives.torrent.1 eof.passives.torrent run scoreboard players set #eof.passives.torrent.1 eof.passives.torrent 14

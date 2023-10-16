@@ -93,7 +93,7 @@ Innate Attributes:
 > *"The MudWings are an impressive tribe. From their exceptional fire breath and strong muscles to their ability to last impossible lengths of time underwater, their massive power is unbiased to any environment."*
 > *\- H*
 
-Passive Abilities: [Rejuvenation](#rejuvenation)<br>
+Passive Abilities: [Rejuvenation](#rejuvenation), [Sibling Bomb](#sibling-bond)<br>
 Primary Ability: [Flame Breath](#tribe-abilities)<br>
 Secondary Ability: [Terrashock](#tribe-abilities)<br>
 Tertiary Ability: [Mud Swipe](#tribe-abilities)
@@ -118,6 +118,7 @@ Innate Attributes:
 - Speed 1
 - Strength 1
 - Night Vision
+- Invisibility at night while sneaking
 
 #### RainWings
 
@@ -206,18 +207,27 @@ Cryoenergy is an [IceWing](#icewings) passive ability. It gives variable levels 
 
 Rejuvenation is a [MudWing](#mudwings) passive ability. It gives the user lengthy Regeneration and Speed buffs when charged in muddy areas.
 
-| Level |                                 Activation                                  |                 Effect                  | Charge Duration | Cooldown |
-| :---: | :-------------------------------------------------------------------------: | :-------------------------------------: | :-------------: | :------: |
+| Level |                                 Activation                                  |                                     Effect                                      | Charge Duration | Cooldown |
+| :---: | :-------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-------------: | :------: |
 |   1   | Charge [Terrashock](#tribe-abilities) while on an earthy block and in water | Speed 1 (5min)<br>Speed 2 when submerged in water (3s)<br>Regeneration 1 (5min) |       5s        |    3m    |
+
+#### Sibling Bond
+
+Sibling Bond is a [MudWing](#mudwings) passive ability. It gives variable levels of Speed depending on how many other MudWings are around the user and whether Rejuvenation is active.
+
+| Level |    Activation     |    Effect    | Charge Duration | Cooldown |
+| :---: | :---------------: | :----------: | :-------------: | :------: |
+|   1   | 2 nearby MudWings | Speed 1 (1s) |       ---       |   ---    |
 
 #### Gloom Cloak
 
 Gloom Cloak is a [NightWing](#nightwings) passive ability. It gives variable levels of Speed depending on the time of day.
 
-| Level |             Activation             |    Effect    | Charge Duration | Cooldown |
-| :---: | :--------------------------------: | :----------: | :-------------: | :------: |
-|   1   |   Time is between dusk and dawn    | Speed 2 (1s) |       ---       |   ---    |
-|   2   | Time is between sunset and sunrise | Speed 3 (1s) |       ---       |   ---    |
+| Level |                  Activation                  |      Effect       | Charge Duration | Cooldown |
+| :---: | :------------------------------------------: | :---------------: | :-------------: | :------: |
+|   1   |        Time is between dusk and dawn         |   Speed 2 (1s)    |       ---       |   ---    |
+|   2   |      Time is between sunset and sunrise      |   Speed 3 (1s)    |       ---       |   ---    |
+|   2   | Time is between sunset and sunrise and sneak | Invisibility (1s) |       ---       |   ---    |
 
 #### Camouflage
 

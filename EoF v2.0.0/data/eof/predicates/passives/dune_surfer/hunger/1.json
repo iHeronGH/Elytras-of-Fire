@@ -1,0 +1,17 @@
+{
+	"condition": "minecraft:entity_scores",
+	"entity": "this",
+	"scores": {
+		"eof.passives.dune_surfer.hunger": {
+			"max": {
+				"type": "minecraft:score",
+				"target": {
+					"type": "minecraft:fixed",
+					"name": "#eof.passives.dune_surfer.hunger.1"
+				},
+				"score": "eof.passives.dune_surfer.hunger",
+				"scale": 1
+			}
+		}
+	}
+}

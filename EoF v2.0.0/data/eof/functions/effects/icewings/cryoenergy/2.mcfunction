@@ -4,6 +4,6 @@
 
 #region
 	# Cryoenergy 2 Effects
-effect give @a[predicate=eof:tribes/icewings, predicate=eof:passives/cryoenergy/2, tag=eoflib.atts] speed 1 2 true
+effect give @a[tag=eoflib.atts, predicate=eof:tribes/icewings, predicate=eof:passives/cryoenergy/2] speed 1 2 true
 
 #endregion

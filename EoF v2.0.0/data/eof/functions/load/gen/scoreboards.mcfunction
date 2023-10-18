@@ -5,6 +5,9 @@
 #region
 	# Scoreboards
 		## Passive Objectives
+#define objective eof.passives.dune_surfer.hunger Stores Dune Surfer scores.
+scoreboard objectives add eof.passives.dune_surfer.hunger food
+
 #define objective eof.passives.rejuvenation Stores Rejuvenation scores.
 scoreboard objectives add eof.passives.rejuvenation dummy
 
@@ -29,6 +32,10 @@ scoreboard objectives add eof.passives.true_blessing dummy
 execute unless score _eoflib.dlc.eof eoflib.dlcs = _eoflib.dlc.eof eoflib.dlcs run scoreboard players set _eoflib.dlc.eof eoflib.dlcs 1
 
 		## Passive Vars
+			### Dune Surfer
+#define score_holder #eof.passives.dune_surfer.hunger.1 Sets the maximum hunger threshold for Dune Surfer 1.
+execute unless score #eof.passives.dune_surfer.hunger.1 eof.passives.dune_surfer.hunger = #eof.passives.dune_surfer.hunger.1 eof.passives.dune_surfer.hunger run scoreboard players set #eof.passives.dune_surfer.hunger.1 eof.passives.dune_surfer.hunger 8
+
 			### Sibling Bond
 #define score_holder #eof.passives.sibling_bond.1 Sets the minimum player threshold for Sibling Bond 1.
 execute unless score #eof.passives.sibling_bond.1 eof.passives.sibling_bond = #eof.passives.sibling_bond.1 eof.passives.sibling_bond run scoreboard players set #eof.passives.sibling_bond.1 eof.passives.sibling_bond 2

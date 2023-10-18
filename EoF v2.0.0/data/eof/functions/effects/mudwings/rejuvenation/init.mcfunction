@@ -4,7 +4,7 @@
 
 #region
 	# Add Tags
-tag @a[predicate=eof:passives/rejuvenation/1, tag=eoflib.atts, tag=!eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active] add eof.passives.rejuvenation.init
+tag @a[tag=eoflib.atts, tag=!eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active, predicate=eof:passives/rejuvenation/1] add eof.passives.rejuvenation.init
 
 	# Charge
 function eof:effects/mudwings/rejuvenation/1/charge

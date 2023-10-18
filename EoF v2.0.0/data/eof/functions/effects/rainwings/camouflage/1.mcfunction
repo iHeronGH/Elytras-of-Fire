@@ -4,7 +4,7 @@
 
 #region
 	# Camouflage 1 Effects
-effect give @a[predicate=eof:tribes/rainwings, predicate=eof:passives/camouflage/1, tag=eoflib.atts] speed 1 2 true
-effect give @a[predicate=eof:tribes/rainwings, predicate=eof:passives/camouflage/1, tag=eoflib.atts] invisibility 1 0 true
+effect give @a[tag=eoflib.atts, predicate=eof:tribes/rainwings, predicate=eof:passives/camouflage/1] speed 1 2 true
+effect give @a[tag=eoflib.atts, predicate=eof:tribes/rainwings, predicate=eof:passives/camouflage/1] invisibility 1 0 true
 
 #endregion

@@ -240,11 +240,12 @@ Camouflage is a [RainWing](#rainwings) passive ability. It gives Invisibility an
 
 #### Dune Surfer
 
-Dune Surfer is a [SandWing](#sandwings) passive ability. It gives increased Speed depending on the type of block the user is standing on.
+Dune Surfer is a [SandWing](#sandwings) passive ability. It gives increased Speed depending on the type of block the user is standing on while allowing the user to thrive on less food.
 
-| Level |       Activation        |    Effect    | Charge Duration | Cooldown |
-| :---: | :---------------------: | :----------: | :-------------: | :------: |
-|   1   | Stand on a desert block | Speed 3 (1s) |       ---       |   ---    |
+| Level |        Activation         |     Effect      | Charge Duration | Cooldown |
+| :---: | :-----------------------: | :-------------: | :-------------: | :------: |
+|   1   | Hunger is 4 bars or lower | Saturation (0s) |       ---       |   45s    |
+|   1   |  Stand on a desert block  |  Speed 3 (1s)   |       ---       |   ---    |
 
 #### Torrent
 

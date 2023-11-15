@@ -3,10 +3,10 @@
 #
 
 #region
-	# Remove Tag
+    # Remove Tag
 tag @s remove eof.passives.dune_surfer.hunger
 
-	# Reset Score
+    # Reset Score
 scoreboard players reset @s eof.passives.dune_surfer.hunger
 
 #endregion

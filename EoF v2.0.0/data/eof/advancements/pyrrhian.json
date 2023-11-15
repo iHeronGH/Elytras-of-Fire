@@ -1,16 +1,23 @@
 {
-	"parent": "eoflib:dragon",
-	"criteria": {
-		"is_pyrrhian": {
-			"trigger": "minecraft:tick",
-			"conditions": {
-				"player": [
-					{
-						"condition": "minecraft:reference",
-						"name": "eof:tribes/pyrrhian"
-					}
-				]
-			}
-		}
-	}
+    "parent": "eoflib:dragon",
+    "criteria": {
+        "is_pyrrhian": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/pyrrhian"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:settings/allow_attributes"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:effects/main"
+    }
 }

@@ -3,7 +3,7 @@
 # Reset cooldowns for passives and abilities when a user changes tribes.
 
 #region
-	# Remove other tribe cooldowns
+    # Remove other tribe cooldowns
 execute if entity @s[predicate=!eof:tribes/icewings] run function eof:reset/cooldowns/icewings
 execute if entity @s[predicate=!eof:tribes/mudwings] run function eof:reset/cooldowns/mudwings
 execute if entity @s[predicate=!eof:tribes/nightwings] run function eof:reset/cooldowns/nightwings

@@ -1,10 +1,10 @@
 [
-	{
-		"condition": "minecraft:reference",
-		"name": "eoflib:movement/ground_sneak"
-	},
-	{
-		"condition": "minecraft:reference",
-		"name": "eoflib:mainhand/ability/secondary"
-	}
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:movement/ground_sneak"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:mainhand/ability/secondary"
+    }
 ]

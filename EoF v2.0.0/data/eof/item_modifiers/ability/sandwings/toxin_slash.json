@@ -1,21 +1,21 @@
 [
-	{
-		"function": "minecraft:copy_nbt",
-		"source": {
-			"type": "minecraft:storage",
-			"source": "eoflib:config"
-		},
-		"ops": [
-			{
-				"source": "eof.Abilities[].SandWings[].tertiary[].mc_data",
-				"target": "{}",
-				"op": "merge"
-			},
-			{
-				"source": "eof.Abilities[].SandWings[].tertiary[].eof_data",
-				"target": "{}.eof_data",
-				"op": "replace"
-			}
-		]
-	}
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "eoflib:config"
+        },
+        "ops": [
+            {
+                "source": "eof.Abilities[].SandWings[].tertiary[].mc_data",
+                "target": "{}",
+                "op": "merge"
+            },
+            {
+                "source": "eof.Abilities[].SandWings[].tertiary[].eof_data",
+                "target": "{}.eof_data",
+                "op": "replace"
+            }
+        ]
+    }
 ]

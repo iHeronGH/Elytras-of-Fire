@@ -1,4 +1,4 @@
 {
-	"condition": "minecraft:reference",
-	"name": "eoflib:movement/elytra_flight"
+    "condition": "minecraft:reference",
+    "name": "eoflib:movement/elytra_flight"
 }

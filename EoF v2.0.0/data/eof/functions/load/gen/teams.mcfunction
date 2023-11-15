@@ -3,22 +3,22 @@
 # Generates Elytras of Fire teams.
 
 #region
-	# Create tribe teams
-team add Icewing
-team add Mudwing
-team add Nightwing
-team add Rainwing
-team add Sandwing
-team add Seawing
-team add Skywing
+    # Create tribe teams
+team add IceWing
+team add MudWing
+team add NightWing
+team add RainWing
+team add SandWing
+team add SeaWing
+team add SkyWing
 
-	# Team modifiers
-team modify Icewing color aqua
-team modify Mudwing color red
-team modify Nightwing color dark_purple
-team modify Rainwing color green
-team modify Sandwing color yellow
-team modify Seawing color blue
-team modify Skywing color dark_red
+    # Team modifiers
+team modify IceWing color aqua
+team modify MudWing color red
+team modify NightWing color dark_purple
+team modify RainWing color green
+team modify SandWing color yellow
+team modify SeaWing color blue
+team modify SkyWing color dark_red
 
 #endregion

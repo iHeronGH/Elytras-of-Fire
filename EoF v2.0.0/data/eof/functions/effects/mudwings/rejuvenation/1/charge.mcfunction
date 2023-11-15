@@ -3,21 +3,21 @@
 # Runs charge functions for the Rejuvenation passive attribute.
 
 #region
-	# Increment scores
+    # Increment scores
 scoreboard players add @a[tag=eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active] eof.passives.rejuvenation 36
 
-	# Charge display
+    # Charge display
 execute as @a[tag=eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active, scores={eof.passives.rejuvenation=1..3600}] run function eof:effects/mudwings/rejuvenation/1/charge_tree/l1
 
-	# Check loop criteria
-		## Stop loop
-			### Stopped charging
+    # Check loop criteria
+        ## Stop loop
+            ### Stopped charging
 execute as @a[tag=eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active] unless entity @s[predicate=eof:passives/rejuvenation/1, scores={eof.passives.rejuvenation=1..3600}] run function eof:effects/mudwings/rejuvenation/1/deactivate
 
-			### Fully charged
+            ### Fully charged
 execute as @a[tag=eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active, scores={eof.passives.rejuvenation=3600}] at @s run function eof:effects/mudwings/rejuvenation/1/activate
 
-		## Continue loop
+        ## Continue loop
 execute if entity @a[tag=eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active, scores={eof.passives.rejuvenation=1..3600}] run schedule function eof:effects/mudwings/rejuvenation/1/charge 1t
 
 #endregion

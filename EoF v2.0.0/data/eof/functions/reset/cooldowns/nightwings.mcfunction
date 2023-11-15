@@ -3,7 +3,7 @@
 # Reset all NightWing cooldowns.
 
 #region
-	# Reset NightWing cooldowns
+    # Reset NightWing cooldowns
 # say NightWing cooldowns reset.
 
 #endregion

@@ -1,6 +1,6 @@
 {
-	"replace": false,
-	"values": [
-		"eof:load/del/scoreboards"
-	]
+    "replace": false,
+    "values": [
+        "eof:load/del/scoreboards"
+    ]
 }

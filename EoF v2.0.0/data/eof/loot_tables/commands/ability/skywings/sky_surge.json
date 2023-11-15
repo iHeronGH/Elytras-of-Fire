@@ -1,19 +1,19 @@
 {
-	"pools": [
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:knowledge_book",
-					"functions": [
-						{
-							"function": "minecraft:reference",
-							"name": "eof:ability/skywings/sky_surge"
-						}
-					]
-				}
-			]
-		}
-	]
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:knowledge_book",
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "eof:ability/skywings/sky_surge"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

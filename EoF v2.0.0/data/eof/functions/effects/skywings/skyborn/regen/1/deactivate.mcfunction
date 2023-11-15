@@ -3,13 +3,13 @@
 #
 
 #region
-	# Announce Deactivation
+    # Announce Deactivation
 title @s actionbar {"text":"Skyborn ready!", "color":"dark_red"}
 
-	# Remove Tag
+    # Remove Tag
 tag @s remove eof.passives.skyborn.regen
 
-	# Reset Score
+    # Reset Score
 scoreboard players reset @s eof.passives.skyborn.regen
 
 #endregion

@@ -244,7 +244,7 @@ Dune Surfer is a [SandWing](#sandwings) passive ability. It gives increased Spee
 
 | Level |        Activation         |     Effect      | Charge Duration | Cooldown |
 | :---: | :-----------------------: | :-------------: | :-------------: | :------: |
-|   1   | Hunger is 4 bars or lower | Saturation (0s) |       ---       |   45s    |
+|   1   | Hunger is 4 bars or lower | Saturation (0s) |       ---       |   40s    |
 |   1   |  Stand on a desert block  |  Speed 3 (1s)   |       ---       |   ---    |
 
 #### Torrent

@@ -3,7 +3,7 @@
 # Reset all SandWing cooldowns.
 
 #region
-	# Reset SandWing cooldowns
+    # Reset SandWing cooldowns
 # say SandWing cooldowns reset.
 
 #endregion

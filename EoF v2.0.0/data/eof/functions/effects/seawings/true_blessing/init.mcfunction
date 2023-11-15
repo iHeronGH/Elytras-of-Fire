@@ -1,12 +1,12 @@
 #> eof:effects/seawings/true_blessing/init
 #
-# Grant effects based on the Seawing passive ability True Blessing.
+# Grant effects based on the SeaWing passive ability True Blessing.
 
 #region
-	# Add Tags
+    # Add Tags
 tag @a[tag=eoflib.atts, tag=!eof.passives.true_blessing.init, tag=!eof.passives.true_blessing.active, predicate=eof:passives/true_blessing/1] add eof.passives.true_blessing.init
 
-	# Charge
+    # Charge
 function eof:effects/seawings/true_blessing/1/charge
 
 #endregion

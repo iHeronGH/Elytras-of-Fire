@@ -3,10 +3,10 @@
 # Initialise Rejuvenation charging.
 
 #region
-	# Add Tags
+    # Add Tags
 tag @a[tag=eoflib.atts, tag=!eof.passives.rejuvenation.init, tag=!eof.passives.rejuvenation.active, predicate=eof:passives/rejuvenation/1] add eof.passives.rejuvenation.init
 
-	# Charge
+    # Charge
 function eof:effects/mudwings/rejuvenation/1/charge
 
 #endregion

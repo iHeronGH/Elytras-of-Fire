@@ -1,6 +1,6 @@
 {
-	"replace": false,
-	"values": [
-		"eof:reset/cooldowns"
-	]
+    "replace": false,
+    "values": [
+        "eof:reset/cooldowns"
+    ]
 }

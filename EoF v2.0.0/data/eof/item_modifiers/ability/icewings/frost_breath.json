@@ -1,21 +1,21 @@
 [
-	{
-		"function": "minecraft:copy_nbt",
-		"source": {
-			"type": "minecraft:storage",
-			"source": "eoflib:config"
-		},
-		"ops": [
-			{
-				"source": "eof.Abilities[].IceWings[].primary[].mc_data",
-				"target": "{}",
-				"op": "merge"
-			},
-			{
-				"source": "eof.Abilities[].IceWings[].primary[].eof_data",
-				"target": "{}.eof_data",
-				"op": "replace"
-			}
-		]
-	}
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "eoflib:config"
+        },
+        "ops": [
+            {
+                "source": "eof.Abilities[].IceWings[].primary[].mc_data",
+                "target": "{}",
+                "op": "merge"
+            },
+            {
+                "source": "eof.Abilities[].IceWings[].primary[].eof_data",
+                "target": "{}.eof_data",
+                "op": "replace"
+            }
+        ]
+    }
 ]

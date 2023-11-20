@@ -1,23 +1,37 @@
 {
-    "condition": "minecraft:time_check",
-    "value": {
-        "min": {
-            "type": "minecraft:score",
-            "target": {
-                "type": "minecraft:fixed",
-                "name": "#eoflib.worldtime.dusk"
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:value_check",
+            "value": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#eoflib.worldtime.current"
+                },
+                "score": "eoflib.worldtime",
+                "scale": 1
             },
-            "score": "eoflib.worldtime",
-            "scale": 1
-        },
-        "max": {
-            "type": "minecraft:score",
-            "target": {
-                "type": "minecraft:fixed",
-                "name": "#eoflib.worldtime.dawn"
-            },
-            "score": "eoflib.worldtime",
-            "scale": 1
+            "range": {
+                "min": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#eoflib.worldtime.dusk"
+                    },
+                    "score": "eoflib.worldtime",
+                    "scale": 1
+                },
+                "max": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#eoflib.dawn"
+                    },
+                    "score": "eoflib.numbers",
+                    "scale": 1
+                }
+            }
         }
-    }
+    ]
 }

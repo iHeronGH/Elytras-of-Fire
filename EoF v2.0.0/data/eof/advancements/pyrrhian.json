@@ -11,7 +11,7 @@
                     },
                     {
                         "condition": "minecraft:reference",
-                        "name": "eoflib:settings/allow_attributes"
+                        "name": "eoflib:settings/admin/allow_attributes"
                     }
                 ]
             }
@@ -21,3 +21,4 @@
         "function": "eof:effects/main"
     }
 }
+

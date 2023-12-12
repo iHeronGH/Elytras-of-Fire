@@ -1,0 +1,24 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "flame_breath_activated": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/mudwings"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:movement/sneak"
+                    }
+                ],
+                "recipe": "eoflib:primary"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/mudwings/flame_breath"
+    }
+}

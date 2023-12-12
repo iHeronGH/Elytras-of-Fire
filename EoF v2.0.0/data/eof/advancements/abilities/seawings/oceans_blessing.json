@@ -1,0 +1,20 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "oceans_blessing_activated": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/seawings"
+                    }
+                ],
+                "recipe": "eoflib:secondary"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/seawings/oceans_blessing"
+    }
+}

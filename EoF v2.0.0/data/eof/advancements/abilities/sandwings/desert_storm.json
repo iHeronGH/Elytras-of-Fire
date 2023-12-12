@@ -1,0 +1,20 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "desert_storm_activated": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/sandwings"
+                    }
+                ],
+                "recipe": "eoflib:secondary"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/sandwings/desert_storm"
+    }
+}

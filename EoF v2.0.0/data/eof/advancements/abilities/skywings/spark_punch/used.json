@@ -1,0 +1,20 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "spark_punch_used": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/skywings"
+                    }
+                ],
+                "recipe": "eoflib:tertiary"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/skywings/spark_punch/used"
+    }
+}

@@ -1,4 +1,4 @@
-#> eof:load/del/storage
+#> eof:load/del/storages
 #
 # Remove abstract storage containers.
 

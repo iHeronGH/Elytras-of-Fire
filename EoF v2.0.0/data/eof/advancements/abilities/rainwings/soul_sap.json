@@ -1,0 +1,24 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "soul_sap_activated": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/rainwings"
+                    }
+                ],
+                "damage": {
+                    "dealt": {
+                        "min": 0
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/rainwings/soul_sap"
+    }
+}

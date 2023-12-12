@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "eof:load/del/scoreboards",
-        "eof:load/del/storage",
-        "eof:load/del/teams"
-    ]
-}

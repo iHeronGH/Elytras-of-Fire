@@ -1,0 +1,24 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "toxin_slash_activated": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/sandwings"
+                    }
+                ],
+                "damage": {
+                    "dealt": {
+                        "min": 0
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/sandwings/toxin_slash"
+    }
+}

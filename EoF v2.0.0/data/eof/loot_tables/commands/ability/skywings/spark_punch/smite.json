@@ -9,7 +9,7 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
-                            "name": "eof:ability/skywings/spark_punch"
+                            "name": "eof:ability/skywings/spark_punch/smite"
                         }
                     ]
                 }

@@ -187,7 +187,7 @@ Innate Attributes:
 
 ### Passives
 
-Elytras of Fire comes with 8 passive abilities:
+Elytras of Fire comes with 9 passive abilities:
 
 <details>
 

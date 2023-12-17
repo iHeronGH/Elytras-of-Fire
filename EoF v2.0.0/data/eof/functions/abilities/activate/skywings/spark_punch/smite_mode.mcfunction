@@ -9,7 +9,7 @@ tellraw @s {"text": "eof:abilities/activate/skywings/spark_punch/smite_mode", "c
     # Switch to Smite Mode
 function eof:abilities/return/skywings/spark_punch/smite
 
-	# Remove toggle tag
+    # Remove toggle tag
 tag @s remove eof.skywings.toggle
 
 #endregion

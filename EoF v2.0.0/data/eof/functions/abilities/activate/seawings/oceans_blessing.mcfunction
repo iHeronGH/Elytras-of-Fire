@@ -3,7 +3,7 @@
 # Activate SeaWing ability Ocean's Blessing.
 
 #region
-	# Activate Ocean's Blessing
+    # Activate Ocean's Blessing
 tellraw @s {"text": "eof:abilities/activate/seawings/oceans_blessing.mcf", "color": "dark_aqua"}
 
     # Revoke advancement

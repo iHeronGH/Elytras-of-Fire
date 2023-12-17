@@ -3,8 +3,11 @@
 # Activate RainWing ability Soul Sap.
 
 #region
-	# Activate Soul Sap
-tellraw @s {"text": "eof:abilities/activate/rainwings/soul_sap.mcf", "color": "green"}
+    # Activate Soul Sap
+        ## User effects
+effect give @s regeneration 2 2 true
+
+        ## Enemy effects
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/rainwings/soul_sap

@@ -1,0 +1,30 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "shade_shackle_activated": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/nightwings"
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags: [\"eof.nightwings.shade_shackle\"]}"
+                            }
+                        }
+                    }
+                ],
+                "recipe": "eoflib:secondary"
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/nightwings/shade_shackle/on"
+    }
+}

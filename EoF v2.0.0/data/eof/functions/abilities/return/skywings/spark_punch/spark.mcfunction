@@ -3,7 +3,7 @@
 # Grant the player the SkyWing ability Spark Punch, Spark mode.
 
 #region
-	# Give Spark Punch
+    # Give Spark Punch
 loot replace entity @s hotbar.8 loot eof:commands/ability/skywings/spark_punch/spark
 
     # Correct tags

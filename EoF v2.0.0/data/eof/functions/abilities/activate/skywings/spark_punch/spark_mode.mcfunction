@@ -9,7 +9,7 @@ tellraw @s {"text": "eof:abilities/activate/skywings/spark_punch/spark_mode", "c
     # Switch to Spark Mode
 function eof:abilities/return/skywings/spark_punch/spark
 
-	# Remove toggle tag
+    # Remove toggle tag
 tag @s remove eof.skywings.toggle
 
 #endregion

@@ -3,7 +3,7 @@
 # Activate SandWing ability Flame Breath.
 
 #region
-	# Activate Flame Breath
+    # Activate Flame Breath
 tellraw @s {"text": "eof:abilities/activate/sandwings/flame_breath.mcf", "color": "yellow"}
 
     # Revoke advancement

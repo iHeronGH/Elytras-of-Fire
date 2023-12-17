@@ -3,7 +3,7 @@
 # Activate SkyWing ability Flame Breath.
 
 #region
-	# Activate Flame Breath
+    # Activate Flame Breath
 tellraw @s {"text": "eof:abilities/activate/skywings/flame_breath.mcf", "color": "dark_red"}
 
     # Revoke advancement

@@ -3,7 +3,7 @@
 # Grant the player the RainWing ability Soul Sap.
 
 #region
-	# Give Soul Sap
+    # Give Soul Sap
 loot replace entity @s hotbar.8 loot eof:commands/ability/rainwings/soul_sap
 
 #endregion

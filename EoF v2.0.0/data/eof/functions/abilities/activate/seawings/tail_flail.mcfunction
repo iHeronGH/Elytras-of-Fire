@@ -3,7 +3,7 @@
 # Activate SeaWing ability Tail Flail.
 
 #region
-	# Activate Tail Flail
+    # Activate Tail Flail
 tellraw @s {"text": "eof:abilities/activate/seawings/tail_flail.mcf", "color": "dark_aqua"}
 
     # Revoke advancement

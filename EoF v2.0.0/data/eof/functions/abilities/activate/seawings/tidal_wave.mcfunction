@@ -3,7 +3,7 @@
 # Activate SeaWing ability Tidal Wave.
 
 #region
-	# Activate Tidal Wave
+    # Activate Tidal Wave
 tellraw @s {"text": "eof:abilities/activate/seawings/tidal_wave.mcf", "color": "dark_aqua"}
 
     # Revoke advancement

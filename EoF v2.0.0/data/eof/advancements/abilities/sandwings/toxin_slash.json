@@ -8,6 +8,10 @@
                     {
                         "condition": "minecraft:reference",
                         "name": "eof:tribes/sandwings"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:mainhand/ability/tertiary"
                     }
                 ],
                 "damage": {

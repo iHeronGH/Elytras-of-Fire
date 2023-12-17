@@ -6,7 +6,7 @@
     # Debug
 tellraw @s "eof:abilities/return/main"
 
-	# Return abilities
+    # Return abilities
 execute if entity @s[predicate=eof:tribes/icewings] run function eof:abilities/return/icewings/all
 execute if entity @s[predicate=eof:tribes/mudwings] run function eof:abilities/return/mudwings/all
 execute if entity @s[predicate=eof:tribes/nightwings] run function eof:abilities/return/nightwings/all

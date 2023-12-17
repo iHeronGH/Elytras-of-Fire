@@ -6,7 +6,7 @@
     # Debug 
 tellraw @s "eof:abilities/return/icewings/frost_breath"
 
-	# Give Frost Breath
+    # Give Frost Breath
 loot replace entity @s hotbar.6 loot eof:commands/ability/icewings/frost_breath
 
 #endregion

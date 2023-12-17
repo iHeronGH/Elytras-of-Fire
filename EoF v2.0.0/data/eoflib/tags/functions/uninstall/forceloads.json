@@ -1,6 +1,4 @@
 {
-	"replace": false,
-	"values": [
-		"eof:load/del/forceloads"
-	]
+    "replace": false,
+    "values": ["eof:load/del/forceloads"]
 }

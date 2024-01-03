@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "eof:effects/main"
+        "function": "eof:passives/main"
     }
 }

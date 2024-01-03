@@ -4,7 +4,7 @@
 
 #region
     # Debug
-tellraw @s "eof:abilities/return/main"
+tellraw @s "eof:abilities/return/main.mcf"
 
     # Return abilities
 execute if entity @s[predicate=eof:tribes/icewings] run function eof:abilities/return/icewings/all

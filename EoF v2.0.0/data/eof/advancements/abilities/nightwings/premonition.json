@@ -23,6 +23,6 @@
         }
     },
     "rewards": {
-        "function": "eof:abilities/activate/nightwings/premonition"
+        "function": "eof:abilities/activate/nightwings/premonition/activate"
     }
 }

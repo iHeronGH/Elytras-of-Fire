@@ -8,10 +8,6 @@
                     {
                         "condition": "minecraft:reference",
                         "name": "eof:tribes/icewings"
-                    },
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "eoflib:movement/sneak"
                     }
                 ],
                 "recipe": "eoflib:primary"

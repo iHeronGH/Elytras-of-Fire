@@ -4,7 +4,8 @@
 
 #region
     # Reset MudWing cooldowns
-scoreboard players set @s eof.passives.rejuvenation 0
+scoreboard players set @a[predicate=!eof:tribes/mudwings] eof.passives.rejuvenation 0
+scoreboard players set @a[predicate=!eof:tribes/mudwings] eof.passives.sibling_bond 0
 # say MudWing cooldowns reset.
 
 #endregion

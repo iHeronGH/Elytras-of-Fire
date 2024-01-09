@@ -1,4 +1,6 @@
 {
     "replace": false,
-    "values": ["eof:load/del/teams"]
+    "values": [
+        "eof:load/del/teams"
+    ]
 }

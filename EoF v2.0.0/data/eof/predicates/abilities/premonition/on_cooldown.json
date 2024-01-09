@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "eof.abilities.premonition": {
+            "max": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#eof.abilities.premonition.duration_relative"
+                },
+                "score": "eof.abilities.premonition",
+                "scale": 1
+            }
+        }
+    }
+}

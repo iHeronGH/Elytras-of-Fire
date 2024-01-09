@@ -1,4 +1,4 @@
-#> eof:load/gen/scoreboards/passives
+#> eof:load/gen/scoreboards/passive_variables
 #
 # Initialises passive ability variables.
 

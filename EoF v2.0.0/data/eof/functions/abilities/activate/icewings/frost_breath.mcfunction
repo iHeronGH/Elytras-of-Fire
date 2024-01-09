@@ -6,7 +6,7 @@
     # Activate Frost Breath
         ## User Effects
 tellraw @s {"text": "eof:abilities/activate/icewings/frost_breath.mcf", "color": "aqua"}
-execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/start
+execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].IceWings[].primary[].eof_data
 
         ## Enemy Effects
 

@@ -13,7 +13,7 @@
             },
             {
                 "source": "eof.Abilities[].RainWings[].primary[].eof_data",
-                "target": "{}.eof_data",
+                "target": "eof_data",
                 "op": "replace"
             }
         ]

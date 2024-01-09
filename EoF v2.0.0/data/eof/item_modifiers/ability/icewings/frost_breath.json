@@ -13,7 +13,7 @@
             },
             {
                 "source": "eof.Abilities[].IceWings[].primary[].eof_data",
-                "target": "{}.eof_data",
+                "target": "eof_data",
                 "op": "replace"
             }
         ]

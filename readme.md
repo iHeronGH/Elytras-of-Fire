@@ -216,9 +216,10 @@ Rejuvenation is a [MudWing](#mudwings) passive ability. It gives the user length
 
 Sibling Bond is a [MudWing](#mudwings) passive ability. It gives variable levels of Speed depending on how many other MudWings are around the user and whether Rejuvenation is active.
 
-| Level |    Activation     |    Effect    | Charge Duration | Cooldown |
-| :---: | :---------------: | :----------: | :-------------: | :------: |
-|   1   | 2 nearby MudWings | Speed 1 (1s) |       ---       |   ---    |
+| Level |                  Activation                  |    Effect    | Charge Duration | Cooldown |
+| :---: | :------------------------------------------: | :----------: | :-------------: | :------: |
+|   1   |              2 nearby MudWings               | Speed 1 (1s) |       ---       |   ---    |
+|   1   | 2 nearby MudWings and Rejuvenation is active | Speed 2 (1s) |       ---       |   ---    |
 
 #### Gloom Cloak
 

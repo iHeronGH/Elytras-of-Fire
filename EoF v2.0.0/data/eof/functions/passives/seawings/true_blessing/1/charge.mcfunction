@@ -3,6 +3,9 @@
 # Runs charge functions for the True Blessing passive attribute.
 
 #region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:charge.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/passives/seawings/true_blessing/1/charge.mcfunction", "color": "aqua"}}}]
+
     # Increment scores
 scoreboard players add @a[tag=eof.passives.true_blessing.init, tag=!eof.passives.true_blessing.active] eof.passives.true_blessing 111
 

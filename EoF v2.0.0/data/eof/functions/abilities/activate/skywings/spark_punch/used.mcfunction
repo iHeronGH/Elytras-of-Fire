@@ -4,7 +4,8 @@
 
 #region
     # Debug
-tellraw @s {"text": "eof:abilities/activate/skywings/spark_punch/used", "color": "dark_red"}
+execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:used.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/abilities/activate/skywings/spark_punch/used.mcfunction", "color": "aqua"}}}]
+execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:used.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/abilities/activate/skywings/spark_punch/used.mcfunction", "color": "aqua"}}}]
 
     # Activate Spark Punch
 tag @s add eof.skywings.toggle

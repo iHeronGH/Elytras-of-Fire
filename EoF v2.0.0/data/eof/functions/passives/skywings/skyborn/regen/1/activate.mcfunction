@@ -1,12 +1,24 @@
 #> eof:passives/skywings/skyborn/regen/1/activate
 #
-#   #regionnn
-  # Announce Activationntitle @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] actionbar {"text":"Skyborn activated!", "color":"dark_red"}}}
+# Activate Skyborn's Regen aspect when successfully charged.
 
-  # Effect Playersseffect give @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] regeneration 12 1 trueee
+#region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:activate.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/passives/skywings/skyborn/regen/1/activate.mcfunction", "color": "aqua"}}}]
 
-  # Add Tagsstag @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] add eof.passives.skyborn.regennn
+    # Announce activation
+title @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] actionbar {"text":"Skyborn activated!", "color":"dark_red"}
 
-  # Set scoreboarddscoreboard players set @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] eof.passives.skyborn.regen 80000
+    # Effect players
+effect give @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] regeneration 12 1 true
 
-  # Begin Looppfunction eof:passives/skywings/skyborn/regen/1/cooldownwnwn#endregiononon
+    # Add tags
+tag @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] add eof.passives.skyborn.regen
+
+    # Set scoreboard
+scoreboard players set @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] eof.passives.skyborn.regen 800
+
+    # Begin loop
+function eof:passives/skywings/skyborn/regen/1/cooldown
+
+#endregion

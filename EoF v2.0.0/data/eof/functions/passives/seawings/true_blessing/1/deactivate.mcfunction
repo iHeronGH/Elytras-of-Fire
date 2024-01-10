@@ -3,6 +3,9 @@
 # Deactivate True Blessing due to either a failed charge or successful cooldown.
 
 #region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:deactivate.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/passives/seawings/true_blessing/1/deactivate.mcfunction", "color": "aqua"}}}]
+
     # Announce deactivation
 execute if entity @s[tag=!eof.passives.true_blessing.active] run title @s actionbar {"text":"True Blessing charge failed!", "color":"dark_aqua"}
 execute if entity @s[tag=eof.passives.true_blessing.active] run title @s actionbar {"text":"True Blessing charge ready!", "color":"dark_aqua"}

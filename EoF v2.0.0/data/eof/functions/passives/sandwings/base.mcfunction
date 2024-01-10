@@ -3,6 +3,9 @@
 # Grants base SandWing effects.
 
 #region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:base.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/passives/sandwings/base.mcfunction", "color": "aqua"}}}]
+
     # Innate effects
 effect give @a[tag=eoflib.atts, predicate=eof:tribes/sandwings] speed 1 0 true
 effect give @a[tag=eoflib.atts, predicate=eof:tribes/sandwings] strength 1 0 true
@@ -13,8 +16,5 @@ execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/sandwings, predicate=
 
         ## Hunger aspect
 execute if entity @a[tag=eoflib.atts, tag=!eof.passives.dune_surfer.hunger, predicate=eof:tribes/sandwings, predicate=eof:passives/dune_surfer/hunger/1] run function eof:passives/sandwings/dune_surfer/hunger/1/activate
-    
-    # Loop if there are any SandWings
-# execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/sandwings] run schedule function eof:passives/sandwings/base 1t replace
 
 #endregion

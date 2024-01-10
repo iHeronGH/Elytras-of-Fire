@@ -3,6 +3,9 @@
 # Grants base SeaWing effects.
 
 #region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:base.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/passives/seawings/base.mcfunction", "color": "aqua"}}}]
+
     # Innate effects
 effect give @a[tag=eoflib.atts, predicate=eof:tribes/seawings] night_vision 12 0 true
 effect give @a[tag=eoflib.atts, predicate=eof:tribes/seawings, predicate=eoflib:movement/swim] speed 2 1 true

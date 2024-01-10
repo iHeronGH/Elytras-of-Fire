@@ -3,6 +3,9 @@
 # Uninstall Elytras of Fire.
 
 #region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:uninstall.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/uninstall.mcfunction", "color": "aqua"}}}]
+
     # Disable datapack
 datapack disable "file/EoF v2.0.0"
 

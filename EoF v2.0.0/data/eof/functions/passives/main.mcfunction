@@ -3,6 +3,9 @@
 # Applies effects to players with their effects toggled on.
 
 #region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:main.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/passives/main.mcfunction", "color": "aqua"}}}]
+
     # Clear other advancements
 function #eoflib:reset/tribe_advancements
 

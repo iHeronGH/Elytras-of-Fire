@@ -3,6 +3,10 @@
 # Initialises passive ability objectives.
 
 #region
+    # Debug
+execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:passive_objectives.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/load/gen/scoreboards/passive_objectives.mcfunction", "color": "aqua"}}}]
+execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:passive_objectives.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/load/gen/scoreboards/passive_objectives.mcfunction", "color": "aqua"}}}]
+
     # Passive Objectives
 #define objective eof.passives.dune_surfer.hunger Stores Dune Surfer scores.
 scoreboard objectives add eof.passives.dune_surfer.hunger dummy

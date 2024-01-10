@@ -3,6 +3,9 @@
 # Deactivate charging of Skyborn's Jump aspect.
 
 #region
+    # Debug
+tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "gray"}, {"text": "eof:deactivate.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/passives/skywings/skyborn/jump/1/deactivate.mcfunction", "color": "aqua"}}}]
+
     # Announce deactivation
 execute if entity @s[tag=!eof.passives.skyborn.active] run title @s actionbar {"text":"Skyborn charge failed!", "color":"dark_red"}
 execute if entity @s[tag=eof.passives.skyborn.active] run title @s actionbar {"text":"Skyborn charge ready!", "color":"dark_red"}

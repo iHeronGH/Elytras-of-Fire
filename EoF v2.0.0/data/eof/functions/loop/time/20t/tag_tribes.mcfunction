@@ -4,8 +4,8 @@
 
 #region
     # Debug
-# execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:tag_tribes.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/loop/time/20t/tag_tribes.mcfunction", "color": "aqua"}}}]
-# execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:tag_tribes.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/loop/time/20t/tag_tribes.mcfunction", "color": "aqua"}}}]
+execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:20t/tag_tribes.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/loop/time/20t/tag_tribes.mcfunction", "color": "aqua"}}}]
+execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:20t/tag_tribes.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/loop/time/20t/tag_tribes.mcfunction", "color": "aqua"}}}]
 
     # Remove tags
 execute if entity @a[predicate=!eof:tribes/icewings] run tag @a[predicate=!eof:tribes/icewings] remove IceWing

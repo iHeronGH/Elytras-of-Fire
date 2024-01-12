@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "eof:load/gen/scoreboards",
-        "eof:load/gen/storages",
-        "eof:load/gen/teams"
-    ]
-}

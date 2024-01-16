@@ -260,8 +260,8 @@ Torrent is a [SeaWing](#seawings) passive ability. It gives the user greater and
 | Level |            Ability             |  Interaction   |
 | :---: | :----------------------------: | :------------: |
 |   1   | [Tidal Wave](#tribe-abilities) | Poison 2 (3s)  |
-|   1   | [Tidal Wave](#tribe-abilities) | Poison 4 (3s)  |
-|   1   | [Tail Flail](#tribe-abilities) | Blindness (7s) |
+|   2   | [Tidal Wave](#tribe-abilities) | Poison 4 (3s)  |
+|   2   | [Tail Flail](#tribe-abilities) | Blindness (7s) |
 
 #### True Blessing
 

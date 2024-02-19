@@ -14,7 +14,7 @@ execute as @a[tag=eof.abilities.premonition, predicate=eof:abilities/premonition
 scoreboard players remove @a[tag=eof.abilities.premonition] eof.abilities.premonition 1
 
     # Premonition deactivated
-execute as @a[tag=eof.abilities.premonition] if score @s eof.abilities.premonition = #eof.abilities.premonition.duration_relative eof.abilities.premonition run title @s actionbar {"text": "Premonition is on cooldown!", "color": "dark_gray"}
+execute as @a[tag=eof.abilities.premonition] if score @s eof.abilities.premonition = #eof.abilities.premonition.duration_end eof.abilities.premonition run title @s actionbar {"text": "Premonition is on cooldown!", "color": "dark_gray"}
 
     # Premonition off cooldown
 execute as @a[tag=eof.abilities.premonition, scores={eof.abilities.premonition=0}] run function eof:abilities/activate/nightwings/premonition/deactivate

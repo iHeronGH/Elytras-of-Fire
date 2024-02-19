@@ -1,0 +1,26 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "eof.abilities.terrashock": {
+            "min": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#eoflib.1"
+                },
+                "score": "eoflib.numbers",
+                "scale": 1
+            },
+            "max": {
+                "type": "minecraft:score",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#eof.abilities.terrashock.cooldown"
+                },
+                "score": "eof.abilities.terrashock",
+                "scale": 1
+            }
+        }
+    }
+}

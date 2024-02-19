@@ -8,6 +8,9 @@ execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "d
 execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:seawings/tail_flail.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/abilities/activate/seawings/tail_flail.mcfunction", "color": "aqua"}}}]
 
     # Activate Tail Flail
+        ## Announce activation
+title @s actionbar {"text": "Tail Flail activated!", "color": "aqua"}
+
         ## User effects
 
         ## Enemy effects

@@ -12,7 +12,8 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 title @s actionbar {"text": "Overgrowth activated!", "color": "dark_green"}
 
         ## User effects
-effect give @s resistance 8 1 true
+effect give @s resistance 6 1 true
+effect give @s slowness 8 1 true
 
         ## Enemy effects
 effect give @e[type=!#eoflib:unaffected, predicate=!eof:tribes/rainwings, distance=..8] slowness 8 1 true

@@ -8,10 +8,10 @@ execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "d
 execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:rainwings/venom_shot.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/abilities/activate/rainwings/venom_shot.mcfunction", "color": "aqua"}}}]
 
     # Activate Venom Shot
-        ## User Effects
+        ## User effects
 execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].RainWings[].primary[].eof_data
 
-        ## Enemy Effects
+        ## Enemy effects
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/rainwings/venom_shot

@@ -12,6 +12,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 effect give @a[tag=eof.nightwings.shade_shackle] slowness 1 2 true
 
         ## Enemy effects
+execute at @a[tag=eof.nightwings.shade_shackle, predicate=eof:tribes/nightwings] run effect give @e[type=!#eoflib:unaffected, predicate=!eof:tribes/nightwings, distance=6..10] blindness 2 0 true
 execute at @a[tag=eof.nightwings.shade_shackle, predicate=eof:tribes/nightwings] run effect give @e[type=!#eoflib:unaffected, predicate=!eof:tribes/nightwings, distance=0.1..6] slowness 2 2 true
 execute at @a[tag=eof.nightwings.shade_shackle, predicate=eof:tribes/nightwings] run effect give @e[type=!#eoflib:unaffected, predicate=!eof:tribes/nightwings, distance=6..10] slowness 1 1 true
 

@@ -8,5 +8,10 @@ execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "d
 execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:cooldowns/nightwings.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/reset/cooldowns/nightwings.mcfunction", "color": "aqua"}}}]
 
     # Reset NightWing cooldowns
+        ## Reset abilities
+scoreboard players set @a[predicate=!eof:tribes/nightwings] eof.abilities.flame_breath 0
+scoreboard players set @a[predicate=!eof:tribes/nightwings] eof.abilities.premonition 0
+
+        ## Reset passives
 
 #endregion

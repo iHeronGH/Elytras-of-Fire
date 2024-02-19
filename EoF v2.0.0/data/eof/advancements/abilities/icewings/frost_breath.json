@@ -6,8 +6,19 @@
             "conditions": {
                 "player": [
                     {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "eof:abilities/cooldowns/icewings/frost_breath"
+                        }
+                    },
+                    {
                         "condition": "minecraft:reference",
                         "name": "eof:tribes/icewings"
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:movement/sneak"
                     }
                 ],
                 "recipe": "eoflib:primary"

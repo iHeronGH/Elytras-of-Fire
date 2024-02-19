@@ -1,0 +1,29 @@
+{
+    "parent": "eoflib:ability_used",
+    "criteria": {
+        "oceans_blessing_activated": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/seawings"
+                    },
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:entity_properties",
+                            "entity": "this",
+                            "predicate": {
+                                "nbt": "{Tags: [\"eof.seawings.oceans_blessing\"]}"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "eof:abilities/activate/seawings/oceans_blessing/on"
+    }
+}

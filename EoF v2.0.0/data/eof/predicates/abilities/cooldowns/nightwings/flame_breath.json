@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_scores",
     "entity": "this",
     "scores": {
-        "eof.abilities.flame_breath": {
+        "eof.abilities.nightwing_flame_breath": {
             "min": {
                 "type": "minecraft:score",
                 "target": {
@@ -16,9 +16,9 @@
                 "type": "minecraft:score",
                 "target": {
                     "type": "minecraft:fixed",
-                    "name": "#eof.abilities.flame_breath.cooldown"
+                    "name": "#eof.abilities.nightwing_flame_breath.cooldown"
                 },
-                "score": "eof.abilities.flame_breath",
+                "score": "eof.abilities.nightwing_flame_breath",
                 "scale": 1
             }
         }

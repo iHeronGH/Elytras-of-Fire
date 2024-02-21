@@ -20,6 +20,11 @@ execute anchored eyes positioned ^ ^-0.2 ^ facing ^0.5 ^ ^0.866 run function eof
 
         ## Enemy effects
 
+    # Begin cooldown
+tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
+scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.tidal_wave = #eof.abilities.tidal_wave.cooldown eof.abilities.tidal_wave
+function #eoflib:abilities/cooldowns/main
+
     # Revoke advancement
 advancement revoke @s only eof:abilities/seawings/tidal_wave
 

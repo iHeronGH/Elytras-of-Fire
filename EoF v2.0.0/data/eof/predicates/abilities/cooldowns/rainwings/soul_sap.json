@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_scores",
     "entity": "this",
     "scores": {
-        "eof.abilities.mud_swipe": {
+        "eof.abilities.soul_sap": {
             "min": {
                 "type": "minecraft:score",
                 "target": {
@@ -16,9 +16,9 @@
                 "type": "minecraft:score",
                 "target": {
                     "type": "minecraft:fixed",
-                    "name": "#eof.abilities.mud_swipe.cooldown"
+                    "name": "#eof.abilities.soul_sap.cooldown"
                 },
-                "score": "eof.abilities.mud_swipe",
+                "score": "eof.abilities.soul_sap",
                 "scale": 1
             }
         }

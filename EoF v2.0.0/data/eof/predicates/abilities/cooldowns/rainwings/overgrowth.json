@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_scores",
     "entity": "this",
     "scores": {
-        "eof.abilities.terrashock": {
+        "eof.abilities.overgrowth": {
             "min": {
                 "type": "minecraft:score",
                 "target": {
@@ -16,9 +16,9 @@
                 "type": "minecraft:score",
                 "target": {
                     "type": "minecraft:fixed",
-                    "name": "#eof.abilities.terrashock.cooldown"
+                    "name": "#eof.abilities.overgrowth.cooldown"
                 },
-                "score": "eof.abilities.terrashock",
+                "score": "eof.abilities.overgrowth",
                 "scale": 1
             }
         }

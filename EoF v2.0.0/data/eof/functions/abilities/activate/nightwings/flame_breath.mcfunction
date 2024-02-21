@@ -17,6 +17,11 @@ tag @s remove eof.effects.frostbite.1
 
         ## Enemy effects
 
+    # Begin cooldown
+tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
+scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.nightwing_flame_breath = #eof.abilities.nightwing_flame_breath.cooldown eof.abilities.nightwing_flame_breath
+function #eoflib:abilities/cooldowns/main
+
     # Revoke advancement
 advancement revoke @s only eof:abilities/nightwings/flame_breath
 

@@ -18,11 +18,11 @@ effect give @s strength 10 2 true
 execute if entity @s[predicate=eof:passives/sibling_bond/1] run effect give @s speed 6 0 true
 
         ## Enemy effects
-effect give @e[type=!#eoflib:unaffected, predicate=!eof:tribes/mudwings, distance=..10] slowness 6 0 true
+effect give @e[predicate=eoflib:entities/affected, predicate=!eof:tribes/mudwings, distance=..10] slowness 6 0 true
 
     # Begin cooldown
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
-scoreboard players operation @s eof.abilities.terrashock = #eof.abilities.terrashock.cooldown eof.abilities.terrashock
+scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.terrashock = #eof.abilities.terrashock.cooldown eof.abilities.terrashock
 function #eoflib:abilities/cooldowns/main
 
     # Revoke advancement

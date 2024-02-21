@@ -11,7 +11,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 function eof:load/del/storages
 
     # Create storage
-#define storage eoflib:config Contains all storage-driven data for Elytras of Fire.
+#define storage eoflib:config Contains all storage-driven data for Elytras of Fire DLCs.
 
     # Regenerate containers
         ## Ability data

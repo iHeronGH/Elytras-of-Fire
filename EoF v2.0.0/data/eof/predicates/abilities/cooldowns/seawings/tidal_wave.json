@@ -2,7 +2,7 @@
     "condition": "minecraft:entity_scores",
     "entity": "this",
     "scores": {
-        "eof.abilities.flame_breath": {
+        "eof.abilities.tidal_wave": {
             "min": {
                 "type": "minecraft:score",
                 "target": {
@@ -16,9 +16,9 @@
                 "type": "minecraft:score",
                 "target": {
                     "type": "minecraft:fixed",
-                    "name": "#eof.abilities.flame_breath.cooldown"
+                    "name": "#eof.abilities.tidal_wave.cooldown"
                 },
-                "score": "eof.abilities.flame_breath",
+                "score": "eof.abilities.tidal_wave",
                 "scale": 1
             }
         }

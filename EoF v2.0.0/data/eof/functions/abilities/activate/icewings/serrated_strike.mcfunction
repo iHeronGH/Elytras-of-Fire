@@ -12,17 +12,17 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 title @s actionbar {"text": "Serrated Strike activated!", "color": "gray"}
 
         ## User effects
-effect give @s strength 10 1 true
+effect give @s strength 10 2 true
 execute if entity @s[predicate=!eof:passives/cryoenergy/1, predicate=!eof:passives/cryoenergy/2] run effect give @s speed 10 0 true
 execute if entity @s[predicate=eof:passives/cryoenergy/1] run effect give @s speed 10 1 true
 execute if entity @s[predicate=eof:passives/cryoenergy/2] run effect give @s speed 10 2 true
 
         ## Enemy effects
-tag @e[type=!#eoflib:unaffected, predicate=!eof:tribes/icewings, distance=..10] add eof.effects.frostbite.1
+tag @e[predicate=eoflib:entities/affected, predicate=!eof:tribes/icewings, distance=..10] add eof.effects.frostbite.1
 
     # Begin cooldown
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
-scoreboard players operation @s eof.abilities.serrated_strike = #eof.abilities.serrated_strike.cooldown eof.abilities.serrated_strike
+scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.serrated_strike = #eof.abilities.serrated_strike.cooldown eof.abilities.serrated_strike
 function #eoflib:abilities/cooldowns/main
 
     # Revoke advancement

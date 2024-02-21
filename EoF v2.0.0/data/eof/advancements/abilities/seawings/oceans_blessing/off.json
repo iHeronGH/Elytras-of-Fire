@@ -10,6 +10,13 @@
                         "name": "eof:tribes/seawings"
                     },
                     {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "eoflib:mainhand/ability/secondary"
+                        }
+                    },
+                    {
                         "condition": "minecraft:entity_properties",
                         "entity": "this",
                         "predicate": {
@@ -18,8 +25,37 @@
                     }
                 ]
             }
+        },
+        "damage_taken_while_oceans_blessing_active": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "taken": {
+                        "min": 2
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eof:tribes/seawings"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "nbt": "{Tags: [\"eof.passives.true_blessing.active\"]}"
+                        }
+                    }
+                ]
+            }
         }
     },
+    "requirements": [
+        [
+            "oceans_blessing_activated",
+            "damage_taken_while_oceans_blessing_active"
+        ]
+    ],
     "rewards": {
         "function": "eof:abilities/activate/seawings/oceans_blessing/off"
     }

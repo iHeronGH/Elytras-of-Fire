@@ -17,6 +17,11 @@ effect give @s resistance 8 0 true
 
         ## Enemy effects
 
+    # Begin cooldown
+tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
+scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.sky_surge = #eof.abilities.sky_surge.cooldown eof.abilities.sky_surge
+function #eoflib:abilities/cooldowns/main
+
     # Revoke advancement
 advancement revoke @s only eof:abilities/skywings/sky_surge
 

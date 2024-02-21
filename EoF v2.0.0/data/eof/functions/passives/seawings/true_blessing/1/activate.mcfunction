@@ -11,14 +11,13 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 title @s actionbar {"text":"True Blessing charged!", "color":"dark_aqua"}
 
     # Effect entities
+tag @s add eof.passives.true_blessing.active
 function eof:passives/seawings/true_blessing/1
 
     # Play particles
 particle cloud ~ ~1.2 ~ 0 0.3 0 0.2 20 force @a[distance=..30]
 
     # Reset
-        ## Resolve tags
 tag @s remove eof.passives.true_blessing.init
-tag @s add eof.passives.true_blessing.active
 
 #endregion

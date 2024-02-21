@@ -13,6 +13,11 @@ effect give @s regeneration 2 2 true
 
         ## Enemy effects
 
+    # Begin cooldown
+tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
+scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.soul_sap = #eof.abilities.soul_sap.cooldown eof.abilities.soul_sap
+function #eoflib:abilities/cooldowns/main
+
     # Revoke advancement
 advancement revoke @s only eof:abilities/rainwings/soul_sap
 

@@ -8,6 +8,6 @@ execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "d
 execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:sandwings/flame_breath.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "data/eof/functions/abilities/cooldowns/sandwings/flame_breath.mcfunction", "color": "aqua"}}}]
 
     # Decrement cooldown
-scoreboard players operation @a[tag=eof.cooldown.active, predicate=eof:tribes/sandwings, predicate=eof:abilities/cooldowns/sandwings/flame_breath] eof.abilities.flame_breath -= #eoflib.1 eoflib.numbers
+scoreboard players operation @a[tag=eof.cooldown.active, predicate=eof:tribes/sandwings, predicate=eof:abilities/cooldowns/sandwings/flame_breath] eof.abilities.sandwing_flame_breath -= #eoflib.1 eoflib.numbers
 
 #endregion

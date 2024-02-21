@@ -1,6 +1,6 @@
 #> eof:load/gen/scoreboards/ability_objectives
 #
-# Initialises ability ability objectives.
+# Initialises active ability objectives.
 
 #region
     # Debug
@@ -12,8 +12,17 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 #define objective eof.abilities.frost_breath Stores Frost Breath scores.
 scoreboard objectives add eof.abilities.frost_breath dummy
 
-#define objective eof.abilities.flame_breath Stores Flame Breath scores.
-scoreboard objectives add eof.abilities.flame_breath dummy
+#define objective eof.abilities.mudwing_flame_breath Stores MudWing Flame Breath scores.
+scoreboard objectives add eof.abilities.mudwing_flame_breath dummy
+
+#define objective eof.abilities.nightwing_flame_breath Stores NightWing Flame Breath scores.
+scoreboard objectives add eof.abilities.nightwing_flame_breath dummy
+
+#define objective eof.abilities.sandwing_flame_breath Stores SandWing Flame Breath scores.
+scoreboard objectives add eof.abilities.sandwing_flame_breath dummy
+
+#define objective eof.abilities.skywing_flame_breath Stores SkyWing Flame Breath scores.
+scoreboard objectives add eof.abilities.skywing_flame_breath dummy
 
 #define objective eof.abilities.venom_shot Stores Venom Shot scores.
 scoreboard objectives add eof.abilities.venom_shot dummy

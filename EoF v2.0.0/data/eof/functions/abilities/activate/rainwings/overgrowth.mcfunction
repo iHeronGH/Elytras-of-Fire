@@ -16,7 +16,12 @@ effect give @s resistance 6 1 true
 effect give @s slowness 8 1 true
 
         ## Enemy effects
-effect give @e[type=!#eoflib:unaffected, predicate=!eof:tribes/rainwings, distance=..8] slowness 8 1 true
+effect give @e[predicate=eoflib:entities/affected, predicate=!eof:tribes/rainwings, distance=..8] slowness 8 1 true
+
+    # Begin cooldown
+tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
+scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.overgrowth = #eof.abilities.overgrowth.cooldown eof.abilities.overgrowth
+function #eoflib:abilities/cooldowns/main
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/rainwings/overgrowth

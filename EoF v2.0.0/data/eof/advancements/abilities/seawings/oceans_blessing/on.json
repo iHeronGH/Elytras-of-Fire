@@ -10,6 +10,10 @@
                         "name": "eof:tribes/seawings"
                     },
                     {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:mainhand/ability/secondary"
+                    },
+                    {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",

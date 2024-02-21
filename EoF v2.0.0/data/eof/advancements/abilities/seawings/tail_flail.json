@@ -6,6 +6,13 @@
             "conditions": {
                 "player": [
                     {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "eof:abilities/cooldowns/seawings/tail_flail"
+                        }
+                    },
+                    {
                         "condition": "minecraft:reference",
                         "name": "eof:tribes/seawings"
                     },
@@ -16,7 +23,7 @@
                 ],
                 "damage": {
                     "dealt": {
-                        "min": 0
+                        "min": 1
                     }
                 }
             }

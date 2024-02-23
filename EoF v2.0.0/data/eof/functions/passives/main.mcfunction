@@ -11,7 +11,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 function #eoflib:reset/tribe_advancements
 
     # Clear other cooldowns
-function #eoflib:reset/cooldowns
+execute if entity @s[predicate=eof:abilities/cooldowns/on_cooldown] run function #eoflib:reset/cooldowns
 
     # Determine effects based on tribe
 execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/icewings] run function eof:passives/icewings/base

@@ -9,7 +9,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 
     # Reset SandWing cooldowns
         ## Reset abilities
-scoreboard players set @a[predicate=!eof:tribes/sandwings] eof.abilities.flame_breath 0
+scoreboard players set @a[predicate=!eof:tribes/sandwings] eof.abilities.sandwing_flame_breath 0
 scoreboard players set @a[predicate=!eof:tribes/sandwings] eof.abilities.desert_storm 0
 
         ## Reset passives

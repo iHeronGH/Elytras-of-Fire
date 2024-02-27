@@ -25,7 +25,13 @@
                     "dealt": {
                         "min": 1
                     }
-                }
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:entities/affected"
+                    }
+                ]
             }
         }
     },

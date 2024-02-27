@@ -19,7 +19,7 @@ execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/s
     # Begin cooldown
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.venom_shot = #eof.abilities.venom_shot.cooldown eof.abilities.venom_shot
-function #eoflib:abilities/cooldowns/main
+execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/rainwings/venom_shot

@@ -23,9 +23,15 @@
                 ],
                 "damage": {
                     "dealt": {
-                        "min": 0
+                        "min": 1
                     }
-                }
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:entities/affected"
+                    }
+                ]
             }
         }
     },

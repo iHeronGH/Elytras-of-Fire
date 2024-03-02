@@ -10,6 +10,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
     # Enemy effects
 execute if entity @s[type=!#eoflib:weak_to_frost] run damage @s 4 generic
 execute if entity @s[type=#eoflib:weak_to_frost] run damage @s 6 generic
+tag @s[predicate=!eof:tribes/icewings] add eof.effects.frostbite.1
 effect give @s mining_fatigue 5 1 true
 effect give @s slowness 5 1 true
 

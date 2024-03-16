@@ -5,6 +5,7 @@
         "eof:passives/mudwings/rejuvenation/1/cooldown",
         "eof:passives/sandwings/dune_surfer/hunger/1/cooldown",
         "eof:passives/seawings/true_blessing/1",
-        "eof:passives/skywings/skyborn/regen/1/cooldown"
+        "eof:passives/skywings/skyborn/regen/1/cooldown",
+        "eof:abilities/cooldowns/main"
     ]
 }

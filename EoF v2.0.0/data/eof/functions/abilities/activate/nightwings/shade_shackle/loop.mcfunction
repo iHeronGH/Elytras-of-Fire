@@ -17,6 +17,6 @@ execute at @a[tag=eof.nightwings.shade_shackle, predicate=eof:tribes/nightwings]
 execute at @a[tag=eof.nightwings.shade_shackle, predicate=eof:tribes/nightwings] run effect give @e[predicate=eoflib:entities/affected, predicate=!eof:tribes/nightwings, distance=6..10] slowness 1 1 true
 
     # Loop
-execute if entity @a[tag=eof.nightwings.shade_shackle, predicate=eoflib:mainhand/ability/secondary, predicate=eof:tribes/nightwings] run schedule function eof:abilities/activate/nightwings/shade_shackle/loop 1t
+execute if entity @a[tag=eof.nightwings.shade_shackle, predicate=eoflib:inventory/mainhand/ability/secondary, predicate=eof:tribes/nightwings] run schedule function eof:abilities/activate/nightwings/shade_shackle/loop 1t
 
 #endregion

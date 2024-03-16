@@ -5,7 +5,7 @@
     },
     {
         "condition": "minecraft:reference",
-        "name": "eoflib:mainhand/ability/secondary"
+        "name": "eoflib:inventory/mainhand/ability/secondary"
     },
     {
         "condition": "minecraft:reference",

@@ -11,7 +11,7 @@
                     },
                     {
                         "condition": "minecraft:reference",
-                        "name": "eoflib:mainhand/ability/secondary"
+                        "name": "eoflib:inventory/mainhand/ability/secondary"
                     },
                     {
                         "condition": "minecraft:inverted",
@@ -21,6 +21,20 @@
                             "predicate": {
                                 "nbt": "{Tags: [\"eof.seawings.oceans_blessing\"]}"
                             }
+                        }
+                    }
+                ]
+            }
+        },
+        "no_active_blacklist_operation": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "eoflib:settings/admin/in_blacklist_operation"
                         }
                     }
                 ]

@@ -11,9 +11,9 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color"
 datapack disable "file/EoF v2.0.0"
 
     # Decrease available DLC counter
-scoreboard players operation #eoflib.active_dlcs eoflib.dlcs -= #eoflib.dlc.eof eoflib.dlcs
+scoreboard players remove #eoflib.active_dlcs eoflib.dlcs 1
 
     # Post-delete message
-tellraw @a[tag=eoflib.admin] [{"text": "\n[", "color": "gray"}, {"text": "E", "color": "red"}, {"text": "o", "color": "gold"}, {"text": "F", "color": "red"}, {"text": "] Elytras of Fire has been uninstalled.", "color": "gray"}]
+tellraw @a[tag=eoflib.admin] [{"text": "[", "color": "gray"}, {"text": "E", "color": "red"}, {"text": "o", "color": "gold"}, {"text": "F", "color": "red"}, {"text": "] Elytras of Fire has been uninstalled.", "color": "gray"}]
 
 #endregion

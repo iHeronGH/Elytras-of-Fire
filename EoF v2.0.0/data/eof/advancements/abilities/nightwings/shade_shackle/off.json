@@ -19,6 +19,21 @@
                 ],
                 "recipe": "eoflib:secondary"
             }
+        },
+        "no_active_blacklist_operation": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "eoflib:settings/admin/in_blacklist_operation"
+                        }
+                    }
+                ],
+                "recipe": "eoflib:ability"
+            }
         }
     },
     "rewards": {

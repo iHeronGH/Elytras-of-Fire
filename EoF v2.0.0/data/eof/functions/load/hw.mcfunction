@@ -8,9 +8,9 @@ execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "d
 execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:load/hw.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n\ndata/eof/functions/load/hw.mcfunction", "color": "aqua"}}}]
 
     # Increment available DLCs
-scoreboard players operation #eoflib.available_dlcs eoflib.dlcs += #eoflib.dlc.eof eoflib.dlcs
+scoreboard players add #eoflib.available_dlcs eoflib.dlcs 1
 
     # Baseline
-execute if score #eoflib.dlc.eof eoflib.dlcs matches 1 run tellraw @a [{"text": "[", "color": "gray"}, {"text": "E", "color": "red"}, {"text": "o", "color": "gold"}, {"text": "F", "color": "red"}, {"text": "] ", "color": "gray"}, {"text": "Elytras ", "color": "red"}, {"text": "of ", "color": "gold"}, {"text": "Fire", "color": "red"}, {"text": " detected!", "color": "gray"}]
+tellraw @a[tag=eoflib.admin] [{"text": "[", "color": "gray"}, {"text": "E", "color": "red"}, {"text": "o", "color": "gold"}, {"text": "F", "color": "red"}, {"text": "] ", "color": "gray"}, {"text": "Elytras ", "color": "red"}, {"text": "of ", "color": "gold"}, {"text": "Fire", "color": "red"}, {"text": " detected!", "color": "gray"}]
 
 #endregion

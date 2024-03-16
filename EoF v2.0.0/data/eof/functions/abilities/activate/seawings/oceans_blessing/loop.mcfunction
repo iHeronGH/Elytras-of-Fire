@@ -16,9 +16,9 @@ effect give @a[tag=eof.seawings.oceans_blessing, predicate=eof:tribes/seawings, 
 
 
     # Check if ability item is still held
-execute if entity @a[tag=eof.seawings.oceans_blessing, predicate=eof:tribes/seawings, predicate=!eoflib:mainhand/ability/secondary] run function eof:abilities/activate/seawings/oceans_blessing/off
+execute if entity @a[tag=eof.seawings.oceans_blessing, predicate=eof:tribes/seawings, predicate=!eoflib:inventory/mainhand/ability/secondary] run function eof:abilities/activate/seawings/oceans_blessing/off
 
     # Loop
-execute if entity @a[tag=eof.seawings.oceans_blessing, predicate=eoflib:mainhand/ability/secondary, predicate=eof:tribes/seawings] run schedule function eof:abilities/activate/seawings/oceans_blessing/loop 1t
+execute if entity @a[tag=eof.seawings.oceans_blessing, predicate=eoflib:inventory/mainhand/ability/secondary, predicate=eof:tribes/seawings] run schedule function eof:abilities/activate/seawings/oceans_blessing/loop 1t
 
 #endregion

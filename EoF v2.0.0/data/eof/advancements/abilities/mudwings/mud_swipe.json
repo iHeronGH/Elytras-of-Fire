@@ -6,19 +6,12 @@
             "conditions": {
                 "player": [
                     {
-                        "condition": "minecraft:inverted",
-                        "term": {
-                            "condition": "minecraft:reference",
-                            "name": "eof:abilities/cooldowns/mudwings/mud_swipe"
-                        }
-                    },
-                    {
                         "condition": "minecraft:reference",
                         "name": "eof:tribes/mudwings"
                     },
                     {
                         "condition": "minecraft:reference",
-                        "name": "eoflib:mainhand/ability/tertiary"
+                        "name": "eoflib:inventory/mainhand/ability/tertiary"
                     }
                 ],
                 "damage": {
@@ -30,6 +23,20 @@
                     {
                         "condition": "minecraft:reference",
                         "name": "eoflib:entities/affected"
+                    }
+                ]
+            }
+        },
+        "no_active_blacklist_operation": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:inverted",
+                        "term": {
+                            "condition": "minecraft:reference",
+                            "name": "eoflib:settings/admin/in_blacklist_operation"
+                        }
                     }
                 ]
             }

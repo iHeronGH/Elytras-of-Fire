@@ -2,7 +2,7 @@
     "parent": "eoflib:ability_used",
     "criteria": {
         "spark_punch_used": {
-            "trigger": "minecraft:recipe_unlocked",
+            "trigger": "minecraft:using_item",
             "conditions": {
                 "player": [
                     {
@@ -10,11 +10,14 @@
                         "name": "eof:tribes/skywings"
                     }
                 ],
-                "recipe": "eoflib:tertiary"
+                "item": {
+                    "items": ["minecraft:ender_eye"],
+                    "nbt": "{eof_data: {ability_data: {type: 'tertiary'}}}"
+                }
             }
         },
         "no_active_blacklist_operation": {
-            "trigger": "minecraft:recipe_unlocked",
+            "trigger": "minecraft:using_item",
             "conditions": {
                 "player": [
                     {
@@ -25,7 +28,10 @@
                         }
                     }
                 ],
-                "recipe": "eoflib:ability"
+                "item": {
+                    "items": ["minecraft:ender_eye"],
+                    "nbt": "{eof_data: {ability_data: {}}}"
+                }
             }
         }
     },

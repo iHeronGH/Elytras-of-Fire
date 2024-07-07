@@ -206,11 +206,12 @@ Cryoenergy is an [IceWing](#icewings) passive ability. It gives variable levels 
 
 #### Rejuvenation
 
-Rejuvenation is a [MudWing](#mudwings) passive ability. It gives the user lengthy Regeneration and Speed buffs when charged in muddy areas.
+Rejuvenation is a [MudWing](#mudwings) passive ability. It allows the user improved breath underwater along with providing lengthy Regeneration and Speed buffs when charged in muddy areas.
 
 | Level |                                 Activation                                  |                                     Effect                                      | Charge Duration | Cooldown |
 | :---: | :-------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-------------: | :------: |
 |   1   | Charge [Terrashock](#tribe-abilities) while on an earthy block and in water | Speed 1 (5min)<br>Speed 2 when submerged in water (3s)<br>Regeneration 1 (5min) |       5s        |    3m    |
+|   1   |                                 Enter water                                 |                          Water Breathing 1 (2min 30s)                           |       ---       |   ---    |
 
 #### Sibling Bond
 

@@ -8,7 +8,7 @@ execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "d
 execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:sibling_bond/1.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n\ndata/eof/functions/passives/mudwings/sibling_bond/1.mcfunction", "color": "aqua"}}}]
 
     # Sibling Bond effects
-effect give @a[tag=eoflib.atts, tag=!eof.passives.rejuvenation.active, predicate=eof:tribes/mudwings, predicate=eof:passives/sibling_bond/1] speed 1 0 true
-effect give @a[tag=eoflib.atts, tag=eof.passives.rejuvenation.active, predicate=eof:tribes/mudwings, predicate=eof:passives/sibling_bond/1] speed 1 1 true
+effect give @a[tag=eoflib.atts, tag=!eof.passives.rejuvenation.regen.active, predicate=eof:tribes/mudwings, predicate=eof:passives/sibling_bond/1] speed 1 0 true
+effect give @a[tag=eoflib.atts, tag=eof.passives.rejuvenation.regen.active, predicate=eof:tribes/mudwings, predicate=eof:passives/sibling_bond/1] speed 1 1 true
 
 #endregion

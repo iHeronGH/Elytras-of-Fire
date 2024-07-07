@@ -2,7 +2,7 @@
     "parent": "eoflib:ability_used",
     "criteria": {
         "flame_breath_activated": {
-            "trigger": "minecraft:recipe_unlocked",
+            "trigger": "minecraft:using_item",
             "conditions": {
                 "player": [
                     {
@@ -14,11 +14,14 @@
                         "name": "eoflib:movement/sneak"
                     }
                 ],
-                "recipe": "eoflib:primary"
+                "item": {
+                    "items": ["minecraft:ender_eye"],
+                    "nbt": "{eof_data: {ability_data: {type: 'primary'}}}"
+                }
             }
         },
         "cooldown_checks": {
-            "trigger": "minecraft:recipe_unlocked",
+            "trigger": "minecraft:using_item",
             "conditions": {
                 "player": [
                     {
@@ -38,11 +41,14 @@
                         ]
                     }
                 ],
-                "recipe": "eoflib:primary"
+                "item": {
+                    "items": ["minecraft:ender_eye"],
+                    "nbt": "{eof_data: {ability_data: {type: 'primary'}}}"
+                }
             }
         },
         "no_active_blacklist_operation": {
-            "trigger": "minecraft:recipe_unlocked",
+            "trigger": "minecraft:using_item",
             "conditions": {
                 "player": [
                     {
@@ -53,7 +59,10 @@
                         }
                     }
                 ],
-                "recipe": "eoflib:ability"
+                "item": {
+                    "items": ["minecraft:ender_eye"],
+                    "nbt": "{eof_data: {ability_data: {}}}"
+                }
             }
         }
     },

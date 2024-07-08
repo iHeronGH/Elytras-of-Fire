@@ -1,11 +1,11 @@
-#> eof:loop/time/20t/tag_tribes
+#> eof:loop/time/20t/correct_tags
 #
 # Resolve Pyrrhian tribe tags for all players.
 
 #region
     # Debug
-# execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:20t/tag_tribes.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "You executed the following function:\n\ndata/eof/functions/loop/time/20t/tag_tribes.mcfunction", "color": "aqua"}}}]
-# execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:20t/tag_tribes.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n\ndata/eof/functions/loop/time/20t/tag_tribes.mcfunction", "color": "aqua"}}}]
+# execute if entity @s run tellraw @s[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:20t/correct_tags.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "You executed the following function:\n\ndata/eof/functions/loop/time/20t/correct_tags.mcfunction", "color": "aqua"}}}]
+# execute unless entity @s run tellraw @a[tag=eoflib.debug] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:20t/correct_tags.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n\ndata/eof/functions/loop/time/20t/correct_tags.mcfunction", "color": "aqua"}}}]
 
     # Remove tags
 tag @a[tag=IceWing, predicate=!eof:tribes/icewings] remove IceWing

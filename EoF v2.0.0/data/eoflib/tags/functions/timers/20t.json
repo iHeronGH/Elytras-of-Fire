@@ -1,5 +1,6 @@
 {
     "values": [
-        "eof:loop/time/20t/tag_tribes"
+        "eof:loop/time/20t/correct_teams",
+        "eof:loop/time/20t/correct_tags"
     ]
 }

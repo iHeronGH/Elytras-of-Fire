@@ -15,9 +15,7 @@
                     }
                 ],
                 "item": {
-                    "items": [
-                        "minecraft:ender_eye"
-                    ],
+                    "items": ["minecraft:ender_eye"],
                     "nbt": "{eof_data: {ability_data: {type: 'primary'}}}"
                 }
             }
@@ -44,9 +42,7 @@
                     }
                 ],
                 "item": {
-                    "items": [
-                        "minecraft:ender_eye"
-                    ],
+                    "items": ["minecraft:ender_eye"],
                     "nbt": "{eof_data: {ability_data: {type: 'primary'}}}"
                 }
             }
@@ -64,9 +60,7 @@
                     }
                 ],
                 "item": {
-                    "items": [
-                        "minecraft:ender_eye"
-                    ],
+                    "items": ["minecraft:ender_eye"],
                     "nbt": "{eof_data: {ability_data: {}}}"
                 }
             }

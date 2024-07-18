@@ -69,9 +69,7 @@
             "oceans_blessing_not_held",
             "damage_taken_while_oceans_blessing_active"
         ],
-        [
-            "no_active_blacklist_operation"
-        ]
+        ["no_active_blacklist_operation"]
     ],
     "rewards": {
         "function": "eof:abilities/activate/seawings/oceans_blessing/off"

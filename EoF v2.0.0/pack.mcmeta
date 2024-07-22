@@ -1,10 +1,10 @@
 {
     "pack": {
-        "pack_format": 15,
-        "supported_formats": [
-            15,
-            18
-        ],
+        "pack_format": 18,
+        "supported_formats": {
+            "min_inclusive": 18,
+            "max_inclusive": 26
+        },
         "description": [
             {
                 "text": "Version: ",
@@ -14,7 +14,7 @@
                 "text": "2.0.0",
                 "color": "red"
             },
-            "\n\n",
+            "\n",
             {
                 "text": "The official Elytras of Fire datapack!\n\nInfluenced by Wings of Fire, this datapack\nadds in all 7 Pyrrhian tribes, three abilities\nfor each, awesome passive powers, and more!"
             }

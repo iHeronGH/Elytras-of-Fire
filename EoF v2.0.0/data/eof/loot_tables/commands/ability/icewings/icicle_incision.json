@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:ender_eye",
+                    "name": "minecraft:warped_fungus_on_a_stick",
                     "functions": [
                         {
                             "function": "minecraft:reference",

@@ -1,5 +1,5 @@
 {
-    "parent": "eoflib:ability_used",
+    "parent": "eoflib:ability_activated",
     "criteria": {
         "soul_sap_activated": {
             "trigger": "minecraft:player_hurt_entity",

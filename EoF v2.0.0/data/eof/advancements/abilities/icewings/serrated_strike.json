@@ -1,25 +1,32 @@
 {
-    "parent": "eoflib:ability_used",
+    "parent": "eoflib:ability_activated",
     "criteria": {
         "serrated_strike_activated": {
-            "trigger": "minecraft:using_item",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "player": [
                     {
                         "condition": "minecraft:reference",
                         "name": "eof:tribes/icewings"
+                    },
+                    {
+                        "condition": "minecraft:entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "eoflib.used.wfoas": {
+                                "min": 1
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "eoflib:inventory/mainhand/ability/secondary"
                     }
-                ],
-                "item": {
-                    "items": [
-                        "minecraft:ender_eye"
-                    ],
-                    "nbt": "{eof_data: {ability_data: {type: 'secondary'}}}"
-                }
+                ]
             }
         },
         "cooldown_checks": {
-            "trigger": "minecraft:using_item",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "player": [
                     {
@@ -38,17 +45,11 @@
                             }
                         ]
                     }
-                ],
-                "item": {
-                    "items": [
-                        "minecraft:ender_eye"
-                    ],
-                    "nbt": "{eof_data: {ability_data: {type: 'secondary'}}}"
-                }
+                ]
             }
         },
         "no_active_blacklist_operation": {
-            "trigger": "minecraft:using_item",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "player": [
                     {
@@ -60,9 +61,7 @@
                     }
                 ],
                 "item": {
-                    "items": [
-                        "minecraft:ender_eye"
-                    ],
+                    "items": ["minecraft:warped_fungus_on_a_stick"],
                     "nbt": "{eof_data: {ability_data: {type: 'secondary'}}}"
                 }
             }

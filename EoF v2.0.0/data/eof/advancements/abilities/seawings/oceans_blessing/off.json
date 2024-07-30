@@ -27,7 +27,7 @@
             }
         },
         "damage_taken_while_oceans_blessing_active": {
-            "trigger": "minecraft:entity_hurt_player",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "damage": {
                     "taken": {

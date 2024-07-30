@@ -11,10 +11,10 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_m
     # Lookup ability used
 execute if predicate eof:abilities/criteria/icewings/serrated_strike run function eof:abilities/activate/icewings/serrated_strike
 execute if predicate eof:abilities/criteria/mudwings/terrashock run function eof:abilities/activate/mudwings/terrashock
-execute if predicate eof:abilities/criteria/nightwings/shade_shackle run function eof:abilities/activate/nightwings/shade_shackle
+execute if predicate eof:abilities/criteria/nightwings/shade_shackle run function eof:abilities/activate/nightwings/shade_shackle/toggle
 execute if predicate eof:abilities/criteria/rainwings/overgrowth run function eof:abilities/activate/rainwings/overgrowth
 execute if predicate eof:abilities/criteria/sandwings/desert_storm run function eof:abilities/activate/sandwings/desert_storm
-execute if predicate eof:abilities/criteria/seawings/oceans_blessing run function eof:abilities/activate/seawings/oceans_blessing
+execute if predicate eof:abilities/criteria/seawings/oceans_blessing run function eof:abilities/activate/seawings/oceans_blessing/toggle
 execute if predicate eof:abilities/criteria/skywings/sky_surge run function eof:abilities/activate/skywings/sky_surge
 
 #endregion

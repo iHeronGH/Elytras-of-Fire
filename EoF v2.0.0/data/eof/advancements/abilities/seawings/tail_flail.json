@@ -2,7 +2,7 @@
     "parent": "eoflib:ability_activated",
     "criteria": {
         "tail_flail_activated": {
-            "trigger": "minecraft:player_hurt_entity",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "player": [
                     {
@@ -28,7 +28,7 @@
             }
         },
         "cooldown_checks": {
-            "trigger": "minecraft:player_hurt_entity",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "player": [
                     {
@@ -51,7 +51,7 @@
             }
         },
         "no_active_blacklist_operation": {
-            "trigger": "minecraft:player_hurt_entity",
+            "trigger": "minecraft:impossible",
             "conditions": {
                 "player": [
                     {

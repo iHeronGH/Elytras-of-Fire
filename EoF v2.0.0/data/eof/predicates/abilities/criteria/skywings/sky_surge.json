@@ -1,0 +1,19 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "eof:tribes/skywings"
+    },
+    {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+            "eoflib.used.wfoas": {
+                "min": 1
+            }
+        }
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:inventory/mainhand/ability/secondary"
+    }
+]

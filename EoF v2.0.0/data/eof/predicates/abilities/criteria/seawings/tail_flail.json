@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "eof:tribes/seawings"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:inventory/mainhand/ability/tertiary"
+    }
+]

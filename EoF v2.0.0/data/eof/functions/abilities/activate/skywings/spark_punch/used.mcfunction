@@ -12,8 +12,8 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_m
 tag @s add eof.skywings.toggle
 
     # Toggle Spark Punch mode
-execute if entity @s[tag=eof.skywings.spark_mode, tag=eof.skywings.toggle] run function eof:abilities/activate/skywings/spark_punch/smite_mode
-execute if entity @s[tag=eof.skywings.smite_mode, tag=eof.skywings.toggle] run function eof:abilities/activate/skywings/spark_punch/spark_mode
+execute if entity @s[tag=eof.skywings.toggle, tag=eof.skywings.spark_mode] run function eof:abilities/activate/skywings/spark_punch/smite_mode
+execute if entity @s[tag=eof.skywings.toggle, tag=eof.skywings.smite_mode] run function eof:abilities/activate/skywings/spark_punch/spark_mode
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/skywings/spark_punch/used

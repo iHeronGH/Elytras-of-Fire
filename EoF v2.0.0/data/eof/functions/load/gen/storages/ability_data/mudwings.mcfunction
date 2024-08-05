@@ -1,0 +1,21 @@
+#> eof:load/gen/storages/ability_data/mudwings
+#
+# Generate MudWing ability data into storage.
+
+#region
+    # Debug
+execute if entity @s run tellraw @s[tag=eoflib.debug, scores={eoflib.debug_mode=1..}] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/mudwings.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "You executed the following function:\n- eof:load/gen/storages/ability_data/mudwings.mcfunction", "color": "aqua"}}}]
+execute if entity @s at @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=3..}, distance=0.1..] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/mudwings.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": [{"selector": "@s", "color": "aqua"}, {"text": " executed the following function:\n- eof:load/gen/storages/ability_data/mudwings.mcfunction", "color": "aqua"}]}}]
+execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=1..}] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/mudwings.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n- eof:load/gen/storages/ability_data/mudwings.mcfunction", "color": "aqua"}}}]
+
+    # Generate ability data
+        ## Flame Breath
+data modify storage eoflib:config eof.Abilities[].MudWings[].primary set value [{eof_data: {dlc: 'eof', version: '2_0_0', ability_data: {archetype: 'primary', tribe: 'mudwings', name: 'flame_breath', cooldown: 10, duration: 0}, raycast_data: {arc_intensity: 0, range: 11, particle: "flame", blocks: {passthrough: "#eoflib:passable/general", action: "burn", influences: "#eof:flora"}}}, mc_data: {display: {Name: '{"text": "Flame Breath", "color": "red", "italic": false}', Lore: ['{"text": "Activation:", "color": "dark_gray"}', '[{"keybind": "key.sneak", "color": "gray"}, {"text": " + "}, {"keybind": "key.use"}]', '{"text": "Effects:", "color": "dark_gray"}', '{"text": "• Creates a trail of", "color": "red"}', '{"text": "fire, igniting enemies", "color": "red"}', '{"text": "on contact", "color": "red"}', '{"text": "Cooldown:", "color": "dark_gray"}', '{"text": "10s", "color": "gray"}']}, CustomModelData: 100100, Unbreakable: true, HideFlags: 4}}]
+
+        ## Terrashock
+data modify storage eoflib:config eof.Abilities[].MudWings[].secondary set value [{eof_data: {dlc: 'eof', version: '2_0_0', ability_data: {archetype: 'secondary', tribe: 'mudwings', name: 'terrashock', cooldown: 24, duration: 0}}, mc_data: {display: {Name: '{"text": "Terrashock", "color": "gold", "italic": false}', Lore: ['{"text": "Activation:", "color": "dark_gray"}', '{"keybind": "key.use", "color": "gray"}', '{"text": "Effects:", "color": "dark_gray"}', '[{"text": "• Slowness 1", "color": "red"}, {"text": " (6s)", "color": "gray"}]', '[{"text": "• Absorption 1", "color": "green"}, {"text": " (10s)", "color": "gray"}]', '[{"text": "• Resistance 1", "color": "green"}, {"text": " (10s)", "color": "gray"}]', '[{"text": "• Strength 3", "color": "green"}, {"text": " (10s)", "color": "gray"}]', '{"text": "Cooldown:", "color": "dark_gray"}', '{"text": "24s", "color": "gray"}']}, CustomModelData: 100101, Unbreakable: true, HideFlags: 4}}]
+
+        ## Mud Swipe
+data modify storage eoflib:config eof.Abilities[].MudWings[].tertiary set value [{eof_data: {dlc: 'eof', version: '2_0_0', ability_data: {archetype: 'tertiary', tribe: 'mudwings', name: 'mud_swipe', cooldown: 12, duration: 0}}, mc_data: {display: {Name: '{"text": "Mud Swipe", "color": "yellow", "italic": false}', Lore: ['{"text": "Activation:", "color": "dark_gray"}', '{"text": "Attack", "color": "gray"}', '{"text": "Effects:", "color": "dark_gray"}', '[{"text": "• Slowness 1", "color": "red"}, {"text": " (6s)", "color": "gray"}]', '[{"text": "• Weakness 1", "color": "red"}, {"text": " (4s)", "color": "gray"}]', '{"text": "Cooldown:", "color": "dark_gray"}', '{"text": "12s", "color": "gray"}']}, CustomModelData: 100110, Unbreakable: true, HideFlags: 4}}]
+
+#endregion

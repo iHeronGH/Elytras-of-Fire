@@ -1,4 +1,4 @@
-#> eof:abilities/activate/skywings/spark_punch/activated
+#> eof:abilities/activate/skywings/spark_punch/activate
 #
 # Activate SkyWing ability Spark Punch.
 
@@ -12,7 +12,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_m
         ## User effects
         
         ## Enemy effects
-execute if entity @s[tag=eof.skywings.spark_mode] run tag @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent] remove eof.effects.frostbite.1
+execute if entity @s[tag=eof.skywings.spark_mode] run tag @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, distance=0.1..10] remove eof.effects.frostbite.1
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/skywings/spark_punch/activated

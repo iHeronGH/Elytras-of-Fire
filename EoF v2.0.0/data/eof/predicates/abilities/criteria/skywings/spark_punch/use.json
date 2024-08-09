@@ -1,10 +1,10 @@
 [
     {
         "condition": "minecraft:reference",
-        "name": "eof:tribes/icewings"
+        "name": "eof:tribes/skywings"
     },
     {
         "condition": "minecraft:reference",
-        "name": "eoflib:abilities/tertiary_activated"
+        "name": "eoflib:abilities/tertiary_used"
     }
 ]

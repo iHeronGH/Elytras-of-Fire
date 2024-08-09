@@ -12,7 +12,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_m
         ## User effects
         
         ## Enemy effects
-effect give @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent] poison 4 0 true
+effect give @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, distance=0.1..10] poison 4 0 true
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/sandwings/toxin_slash

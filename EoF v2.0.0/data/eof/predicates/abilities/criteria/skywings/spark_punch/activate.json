@@ -5,6 +5,6 @@
     },
     {
         "condition": "minecraft:reference",
-        "name": "eoflib:inventory/mainhand/ability/tertiary"
+        "name": "eoflib:abilities/tertiary_activated"
     }
 ]

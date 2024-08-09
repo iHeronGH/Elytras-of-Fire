@@ -15,6 +15,5 @@ title @s actionbar {"text": "Premonition is ready to be used!", "color": "dark_g
         ## Deactivate Premonition
 scoreboard players reset @s eof.abilities.premonition
 tag @s remove eof.abilities.premonition
-advancement revoke @s only eof:abilities/nightwings/premonition
 
 #endregion

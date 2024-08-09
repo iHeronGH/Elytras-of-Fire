@@ -5,19 +5,6 @@
     },
     {
         "condition": "minecraft:reference",
-        "name": "eoflib:movement/sneak"
-    },
-    {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-            "eoflib.used.wfoas": {
-                "min": 1
-            }
-        }
-    },
-    {
-        "condition": "minecraft:reference",
-        "name": "eoflib:inventory/mainhand/ability/primary"
+        "name": "eoflib:abilities/primary_activated"
     }
 ]

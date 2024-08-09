@@ -4,16 +4,7 @@
         "name": "eof:tribes/nightwings"
     },
     {
-        "condition": "minecraft:entity_scores",
-        "entity": "this",
-        "scores": {
-            "eoflib.used.wfoas": {
-                "min": 1
-            }
-        }
-    },
-    {
         "condition": "minecraft:reference",
-        "name": "eoflib:inventory/mainhand/ability/secondary"
+        "name": "eoflib:abilities/secondary_activated"
     }
 ]

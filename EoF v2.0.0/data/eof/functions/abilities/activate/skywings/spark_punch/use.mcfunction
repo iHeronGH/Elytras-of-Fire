@@ -1,4 +1,4 @@
-#> eof:abilities/activate/skywings/spark_punch/used
+#> eof:abilities/activate/skywings/spark_punch/use
 #
 # Activate SkyWing ability Spark Punch.
 

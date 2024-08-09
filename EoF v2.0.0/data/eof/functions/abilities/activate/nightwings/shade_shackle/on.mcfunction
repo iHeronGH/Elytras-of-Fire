@@ -16,7 +16,7 @@ title @s actionbar {"text": "Shade Shackle activated!", "color": "dark_purple"}
 tag @s add eof.nightwings.shade_shackle
 function eof:abilities/activate/nightwings/shade_shackle/loop
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/nightwings/shade_shackle/on
+    # Disable toggle check
+tag @s remove eof.nightwings.toggle
 
 #endregion

@@ -15,6 +15,7 @@ execute if predicate eof:abilities/criteria/nightwings/premonition run function 
 execute if predicate eof:abilities/criteria/rainwings/soul_sap run function eof:abilities/activate/rainwings/soul_sap
 execute if predicate eof:abilities/criteria/sandwings/toxin_slash run function eof:abilities/activate/sandwings/toxin_slash
 execute if predicate eof:abilities/criteria/seawings/tail_flail run function eof:abilities/activate/seawings/tail_flail
-execute if predicate eof:abilities/criteria/skywings/spark_punch run function eof:abilities/activate/skywings/spark_punch/activated
+execute if predicate eof:abilities/criteria/skywings/spark_punch/activate run function eof:abilities/activate/skywings/spark_punch/activate
+execute if predicate eof:abilities/criteria/skywings/spark_punch/use run function eof:abilities/activate/skywings/spark_punch/use
 
 #endregion

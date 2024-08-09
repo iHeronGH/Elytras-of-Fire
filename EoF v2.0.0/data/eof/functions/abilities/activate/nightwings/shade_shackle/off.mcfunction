@@ -15,7 +15,7 @@ title @s actionbar {"text": "Shade Shackle deactivated!", "color": "dark_purple"
         ## Deactivate Shade Shackle
 tag @s remove eof.nightwings.shade_shackle
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/nightwings/shade_shackle/off
+    # Disable toggle check
+tag @s remove eof.nightwings.toggle
 
 #endregion

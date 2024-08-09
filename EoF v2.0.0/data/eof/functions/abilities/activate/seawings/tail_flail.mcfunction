@@ -15,8 +15,8 @@ title @s actionbar {"text": "Tail Flail activated!", "color": "aqua"}
         ## User effects
 
         ## Enemy effects
-execute unless entity @s[predicate=eof:passives/torrent/2] run effect give @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent] blindness 4 0 true
-execute if entity @s[predicate=eof:passives/torrent/2] run effect give @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent] blindness 7 0 true
+execute unless entity @s[predicate=eof:passives/torrent/2] run effect give @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, distance=0.1..10] blindness 4 0 true
+execute if entity @s[predicate=eof:passives/torrent/2] run effect give @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, distance=0.1..10] blindness 7 0 true
 
     # Begin cooldown
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active

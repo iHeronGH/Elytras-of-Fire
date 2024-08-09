@@ -15,8 +15,8 @@ title @s actionbar {"text": "Mud Swipe activated!", "color": "yellow"}
         ## User effects
         
         ## Enemy effects
-execute as @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, distance=..7] run effect give @s slowness 6 0 true
-execute as @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, distance=..7] run effect give @s weakness 4 0 true
+execute as @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent] run effect give @s slowness 6 0 true
+execute as @e[sort=nearest, limit=1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent] run effect give @s weakness 4 0 true
 
     # Begin cooldown
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active

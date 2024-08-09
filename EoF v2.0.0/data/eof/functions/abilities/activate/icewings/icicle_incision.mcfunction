@@ -19,8 +19,8 @@ title @s actionbar {"text": "Icicle Incision activated!", "color": "white"}
 execute as @e[sort=nearest, limit=1, tag=!eof.effects.frostbite.1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent] run effect give @s poison 2 1 true
 
             ### Frostbitten effects
-execute as @e[sort=nearest, limit=1, tag=eof.effects.frostbite.1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, predicate=!eof:tribes/icewings, distance=..7] run effect give @s wither 3 1 true
-execute as @e[sort=nearest, limit=1, tag=eof.effects.frostbite.1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, predicate=!eof:tribes/icewings, distance=..7] run tag @s remove eof.effects.frostbite.1
+execute as @e[sort=nearest, limit=1, tag=eof.effects.frostbite.1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, predicate=!eof:tribes/icewings] run effect give @s wither 3 1 true
+execute as @e[sort=nearest, limit=1, tag=eof.effects.frostbite.1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, predicate=!eof:tribes/icewings] run tag @s remove eof.effects.frostbite.1
 
     # Revoke advancement
 advancement revoke @s only eof:abilities/icewings/icicle_incision

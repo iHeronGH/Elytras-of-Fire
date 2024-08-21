@@ -7,12 +7,12 @@
         },
         "ops": [
             {
-                "source": "eof.Abilities[].RainWings[].secondary[].mc_data",
+                "source": "eof.Abilities[].RainWings.secondary[0].mc_data",
                 "target": "{}",
                 "op": "merge"
             },
             {
-                "source": "eof.Abilities[].RainWings[].secondary[].eof_data",
+                "source": "eof.Abilities[].RainWings.secondary[0].eof_data",
                 "target": "eof_data",
                 "op": "replace"
             }

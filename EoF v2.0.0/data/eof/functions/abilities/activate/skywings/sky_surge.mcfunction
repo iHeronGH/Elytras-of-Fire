@@ -23,7 +23,4 @@ tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.sky_surge = #eof.abilities.sky_surge.cooldown eof.abilities.sky_surge
 execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/skywings/sky_surge
-
 #endregion

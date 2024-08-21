@@ -13,7 +13,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_m
 title @s actionbar {"text": "Frost Breath activated!", "color": "aqua"}
 
         ## User effects
-execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].IceWings[].primary[].eof_data
+execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].IceWings.primary[0].eof_data
 
         ## Enemy effects
 
@@ -21,8 +21,5 @@ execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/s
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.frost_breath = #eof.abilities.frost_breath.cooldown eof.abilities.frost_breath
 execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
-
-    # Revoke advancement
-advancement revoke @s only eof:abilities/icewings/frost_breath
 
 #endregion

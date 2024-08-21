@@ -7,12 +7,12 @@
         },
         "ops": [
             {
-                "source": "eof.Abilities[].MudWings[].primary[].mc_data",
+                "source": "eof.Abilities[].MudWings.primary[0].mc_data",
                 "target": "{}",
                 "op": "merge"
             },
             {
-                "source": "eof.Abilities[].MudWings[].primary[].eof_data",
+                "source": "eof.Abilities[].MudWings.primary[0].eof_data",
                 "target": "eof_data",
                 "op": "replace"
             }

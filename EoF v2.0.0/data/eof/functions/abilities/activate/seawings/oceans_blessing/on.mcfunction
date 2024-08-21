@@ -16,7 +16,7 @@ title @s actionbar {"text": "Ocean's Blessing activated!", "color": "dark_aqua"}
 tag @s add eof.seawings.oceans_blessing
 function eof:abilities/activate/seawings/oceans_blessing/loop
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/seawings/oceans_blessing/on
+    # Disable toggle check
+tag @s remove eof.seawings.toggle
 
 #endregion

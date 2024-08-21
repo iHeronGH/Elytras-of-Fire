@@ -13,11 +13,11 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_m
 title @s actionbar {"text": "Tidal Wave activated!", "color": "blue"}
 
         ## User effects
-execute anchored eyes positioned ^ ^-0.2 ^ facing ^-0.5 ^ ^0.866 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings[].primary[].eof_data
-execute anchored eyes positioned ^ ^-0.2 ^ facing ^-0.259 ^ ^0.966 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings[].primary[].eof_data
-execute anchored eyes positioned ^ ^-0.2 ^ facing ^ ^ ^1 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings[].primary[].eof_data
-execute anchored eyes positioned ^ ^-0.2 ^ facing ^0.259 ^ ^0.966 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings[].primary[].eof_data
-execute anchored eyes positioned ^ ^-0.2 ^ facing ^0.5 ^ ^0.866 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings[].primary[].eof_data
+execute anchored eyes positioned ^ ^-0.2 ^ facing ^-0.5 ^ ^0.866 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings.primary[0].eof_data
+execute anchored eyes positioned ^ ^-0.2 ^ facing ^-0.259 ^ ^0.966 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings.primary[0].eof_data
+execute anchored eyes positioned ^ ^-0.2 ^ facing ^ ^ ^1 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings.primary[0].eof_data
+execute anchored eyes positioned ^ ^-0.2 ^ facing ^0.259 ^ ^0.966 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings.primary[0].eof_data
+execute anchored eyes positioned ^ ^-0.2 ^ facing ^0.5 ^ ^0.866 run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].SeaWings.primary[0].eof_data
 
         ## Enemy effects
 
@@ -25,8 +25,5 @@ execute anchored eyes positioned ^ ^-0.2 ^ facing ^0.5 ^ ^0.866 run function eof
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.tidal_wave = #eof.abilities.tidal_wave.cooldown eof.abilities.tidal_wave
 execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
-
-    # Revoke advancement
-advancement revoke @s only eof:abilities/seawings/tidal_wave
 
 #endregion

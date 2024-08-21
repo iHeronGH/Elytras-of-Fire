@@ -15,7 +15,7 @@ title @s actionbar {"text": "Ocean's Blessing deactivated!", "color": "dark_aqua
         ## Deactivate Ocean's Blessing
 tag @s remove eof.seawings.oceans_blessing
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/seawings/oceans_blessing/off
+    # Disable toggle check
+tag @s remove eof.seawings.toggle
 
 #endregion

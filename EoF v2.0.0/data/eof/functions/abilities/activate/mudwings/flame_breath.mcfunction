@@ -13,7 +13,7 @@ execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_m
 title @s actionbar {"text": "Flame Breath activated!", "color": "red"}
 
         ## User effects
-execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].MudWings[].primary[].eof_data
+execute anchored eyes positioned ^ ^-0.2 ^ run function eoflib_raycast:raycast/start with storage eoflib:config eof.Abilities[].MudWings.primary[0].eof_data
 tag @s remove eof.effects.frostbite.1
 
         ## Enemy effects
@@ -22,8 +22,5 @@ tag @s remove eof.effects.frostbite.1
 tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.mudwing_flame_breath = #eof.abilities.mudwing_flame_breath.cooldown eof.abilities.mudwing_flame_breath
 execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
-
-    # Revoke advancement
-advancement revoke @s only eof:abilities/mudwings/flame_breath
 
 #endregion

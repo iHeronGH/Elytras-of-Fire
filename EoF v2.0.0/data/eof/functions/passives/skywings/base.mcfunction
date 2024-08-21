@@ -14,6 +14,7 @@ effect give @a[tag=eoflib.atts, predicate=eof:tribes/skywings] strength 1 0 true
 
     # Check for Skyborn Jump Effects
 execute if entity @a[tag=eoflib.atts, tag=!eof.passives.skyborn.init, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/jump/1] run function eof:passives/skywings/skyborn/jump/init
+
     # Check for Skyborn Regen Effects
 execute if entity @a[tag=eoflib.atts, tag=!eof.passives.skyborn.regen, predicate=eof:tribes/skywings, predicate=eof:passives/skyborn/regen/1] run function eof:passives/skywings/skyborn/regen/1/activate
 

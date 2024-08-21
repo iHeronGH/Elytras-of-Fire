@@ -26,7 +26,4 @@ tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.serrated_strike = #eof.abilities.serrated_strike.cooldown eof.abilities.serrated_strike
 execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/icewings/serrated_strike
-
 #endregion

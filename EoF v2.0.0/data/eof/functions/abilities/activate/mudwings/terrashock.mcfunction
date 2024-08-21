@@ -26,7 +26,4 @@ tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.terrashock = #eof.abilities.terrashock.cooldown eof.abilities.terrashock
 execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/mudwings/terrashock
-
 #endregion

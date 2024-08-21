@@ -15,7 +15,4 @@ tag @s add eof.skywings.toggle
 execute if entity @s[tag=eof.skywings.toggle, tag=eof.skywings.spark_mode] run function eof:abilities/activate/skywings/spark_punch/smite_mode
 execute if entity @s[tag=eof.skywings.toggle, tag=eof.skywings.smite_mode] run function eof:abilities/activate/skywings/spark_punch/spark_mode
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/skywings/spark_punch/used
-
 #endregion

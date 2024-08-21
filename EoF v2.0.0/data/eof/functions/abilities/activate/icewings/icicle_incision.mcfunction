@@ -22,7 +22,4 @@ execute as @e[sort=nearest, limit=1, tag=!eof.effects.frostbite.1, predicate=eof
 execute as @e[sort=nearest, limit=1, tag=eof.effects.frostbite.1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, predicate=!eof:tribes/icewings, distance=0.1..10] run effect give @s wither 3 1 true
 execute as @e[sort=nearest, limit=1, tag=eof.effects.frostbite.1, predicate=eoflib:entities/affected, predicate=eoflib:damage/recent, predicate=!eof:tribes/icewings, distance=0.1..10] run tag @s remove eof.effects.frostbite.1
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/icewings/icicle_incision
-
 #endregion

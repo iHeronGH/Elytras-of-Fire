@@ -9,6 +9,7 @@ execute if entity @s at @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug
 execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=2..}] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:sandwings/flame_breath.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n- eof:abilities/return/sandwings/flame_breath.mcfunction", "color": "aqua"}}}]
 
     # Give Flame Breath
+execute if score @s eoflib.set_slot.primary matches -106 run loot replace entity @s weapon.offhand loot eof:commands/ability/sandwings/flame_breath
 execute if score @s eoflib.set_slot.primary matches 0 run loot replace entity @s hotbar.0 loot eof:commands/ability/sandwings/flame_breath
 execute if score @s eoflib.set_slot.primary matches 1 run loot replace entity @s hotbar.1 loot eof:commands/ability/sandwings/flame_breath
 execute if score @s eoflib.set_slot.primary matches 2 run loot replace entity @s hotbar.2 loot eof:commands/ability/sandwings/flame_breath

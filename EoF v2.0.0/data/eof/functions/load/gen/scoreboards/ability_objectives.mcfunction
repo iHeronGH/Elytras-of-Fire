@@ -44,6 +44,9 @@ scoreboard objectives add eof.abilities.overgrowth dummy
 #define objective eof.abilities.desert_storm Stores Desert Storm scores.
 scoreboard objectives add eof.abilities.desert_storm dummy
 
+#define objective eof.abilities.oceans_blessing.regen Stores Ocean's Blessing's Regen aspect scores.
+scoreboard objectives add eof.abilities.oceans_blessing.regen dummy
+
 #define objective eof.abilities.sky_surge Stores Sky Surge scores.
 scoreboard objectives add eof.abilities.sky_surge dummy
 

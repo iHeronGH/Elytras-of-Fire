@@ -24,7 +24,4 @@ tag @s[tag=!eoflib.cooldown.bypass] add eof.cooldown.active
 scoreboard players operation @s[tag=!eoflib.cooldown.bypass] eof.abilities.overgrowth = #eof.abilities.overgrowth.cooldown eof.abilities.overgrowth
 execute if entity @s[tag=!eoflib.cooldown.bypass] run function #eoflib:abilities/cooldowns/main
 
-    # Revoke advancement
-advancement revoke @s only eof:abilities/rainwings/overgrowth
-
 #endregion

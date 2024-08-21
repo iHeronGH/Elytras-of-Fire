@@ -7,12 +7,12 @@
         },
         "ops": [
             {
-                "source": "eof.Abilities[].NightWings[].primary[].mc_data",
+                "source": "eof.Abilities[].NightWings.primary[0].mc_data",
                 "target": "{}",
                 "op": "merge"
             },
             {
-                "source": "eof.Abilities[].NightWings[].primary[].eof_data",
+                "source": "eof.Abilities[].NightWings.primary[0].eof_data",
                 "target": "eof_data",
                 "op": "replace"
             }

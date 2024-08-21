@@ -7,12 +7,12 @@
         },
         "ops": [
             {
-                "source": "eof.Abilities[].SkyWings[].tertiary[{eof_data: {ability_data: {mode: \"smite\"}}}].mc_data",
+                "source": "eof.Abilities[].SkyWings.tertiary[{eof_data: {ability_data: {mode: \"smite\"}}}].mc_data",
                 "target": "{}",
                 "op": "merge"
             },
             {
-                "source": "eof.Abilities[].SkyWings[].tertiary[{eof_data: {ability_data: {mode: \"smite\"}}}].eof_data",
+                "source": "eof.Abilities[].SkyWings.tertiary[{eof_data: {ability_data: {mode: \"smite\"}}}].eof_data",
                 "target": "eof_data",
                 "op": "replace"
             }

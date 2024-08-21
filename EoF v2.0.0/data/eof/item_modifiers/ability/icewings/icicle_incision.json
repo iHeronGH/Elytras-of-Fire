@@ -7,12 +7,12 @@
         },
         "ops": [
             {
-                "source": "eof.Abilities[].IceWings[].tertiary[].mc_data",
+                "source": "eof.Abilities[].IceWings.tertiary[0].mc_data",
                 "target": "{}",
                 "op": "merge"
             },
             {
-                "source": "eof.Abilities[].IceWings[].tertiary[].eof_data",
+                "source": "eof.Abilities[].IceWings.tertiary[0].eof_data",
                 "target": "eof_data",
                 "op": "replace"
             }

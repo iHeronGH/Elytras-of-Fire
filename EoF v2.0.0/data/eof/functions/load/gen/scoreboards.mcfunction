@@ -9,17 +9,20 @@ execute if entity @s at @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug
 execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=1..}] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:gen/scoreboards.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n- eof:load/gen/scoreboards.mcfunction", "color": "aqua"}}}]
 
     # Scoreboards
+        ## Reset variables
+execute unless predicate eoflib:settings/admin/save_settings run function eof:load/del/scoreboards
+
         ## Ability objectives
-function eof:load/gen/scoreboards/ability_objectives
+execute unless predicate eoflib:settings/admin/save_settings run function eof:load/gen/scoreboards/ability_objectives
 
         ## Passive objectives
-function eof:load/gen/scoreboards/passive_objectives
+execute unless predicate eoflib:settings/admin/save_settings run function eof:load/gen/scoreboards/passive_objectives
 
     # Scoreholders
         ## Ability variables
-function eof:load/gen/scoreboards/ability_variables
+execute unless predicate eoflib:settings/admin/save_settings run function eof:load/gen/scoreboards/ability_variables
 
         ## Passive variables
-function eof:load/gen/scoreboards/passive_variables
+execute unless predicate eoflib:settings/admin/save_settings run function eof:load/gen/scoreboards/passive_variables
 
 #endregion

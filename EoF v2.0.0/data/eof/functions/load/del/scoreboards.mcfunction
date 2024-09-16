@@ -34,6 +34,7 @@ scoreboard objectives remove eof.passives.sibling_bond
 scoreboard objectives remove eof.passives.skyborn.jump
 scoreboard objectives remove eof.passives.skyborn.regen
 scoreboard objectives remove eof.passives.torrent
-scoreboard objectives remove eof.passives.true_blessing
+scoreboard objectives remove eof.passives.true_blessing.regen
+scoreboard objectives remove eof.passives.true_blessing.swim
 
 #endregion

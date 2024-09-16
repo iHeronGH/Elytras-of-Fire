@@ -27,7 +27,10 @@ scoreboard objectives add eof.passives.skyborn.regen dummy
 #define objective eof.passives.torrent Stores Torrent scores.
 scoreboard objectives add eof.passives.torrent dummy
 
-#define objective eof.passives.true_blessing Stores True Blessing scores.
-scoreboard objectives add eof.passives.true_blessing dummy
+#define objective eof.passives.true_blessing.swim Stores True Blessing's Regen aspect scores.
+scoreboard objectives add eof.passives.true_blessing.regen dummy
+
+#define objective eof.passives.true_blessing.swim Stores True Blessing's Swim aspect scores.
+scoreboard objectives add eof.passives.true_blessing.swim dummy
 
 #endregion

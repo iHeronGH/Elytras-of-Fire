@@ -1,4 +1,4 @@
-#> eof:passives/sandwings/dune_surfer/hunger/1/cooldown
+#> eof:passives/sandwings/dune_surfer/hunger/cooldown
 #
 # Loops the cooldown for the passive ability Dune Surfer.
 
@@ -13,9 +13,9 @@ scoreboard players remove @a[tag=eof.passives.dune_surfer.hunger] eof.passives.d
 
     # Check loop criteria
         ## On Fail
-execute as @a[tag=eof.passives.dune_surfer.hunger, scores={eof.passives.dune_surfer.hunger=..0}] run function eof:passives/sandwings/dune_surfer/hunger/1/deactivate
+execute as @a[tag=eof.passives.dune_surfer.hunger, scores={eof.passives.dune_surfer.hunger=..0}] run function eof:passives/sandwings/dune_surfer/hunger/deactivate
 
         ## On Success
-execute if entity @a[tag=eof.passives.dune_surfer.hunger, scores={eof.passives.dune_surfer.hunger=0..800}] run schedule function eof:passives/sandwings/dune_surfer/hunger/1/cooldown 1t
+execute if entity @a[tag=eof.passives.dune_surfer.hunger, scores={eof.passives.dune_surfer.hunger=0..800}] run schedule function eof:passives/sandwings/dune_surfer/hunger/cooldown 1t
 
 #endregion

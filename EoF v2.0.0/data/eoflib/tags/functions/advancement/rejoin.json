@@ -3,8 +3,8 @@
     "values": [
         "eof:passives/main",
         "eof:passives/mudwings/rejuvenation/regen/1/cooldown",
-        "eof:passives/sandwings/dune_surfer/hunger/1/cooldown",
-        "eof:passives/seawings/true_blessing/1",
+        "eof:passives/sandwings/dune_surfer/hunger/cooldown",
+        "eof:passives/seawings/true_blessing/swim/1",
         "eof:passives/skywings/skyborn/regen/1/cooldown",
         "eof:abilities/cooldowns/main"
     ]

@@ -17,7 +17,7 @@ effect give @a[tag=eoflib.atts, predicate=eof:tribes/sandwings] strength 1 0 tru
 execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/sandwings, predicate=eof:passives/dune_surfer/desert/1] run function eof:passives/sandwings/dune_surfer/desert/1
 
         ## Hunger
-execute if entity @a[tag=eoflib.atts, tag=!eof.passives.dune_surfer.hunger, predicate=eof:tribes/sandwings, predicate=eof:passives/dune_surfer/hunger/1] run function eof:passives/sandwings/dune_surfer/hunger/1/activate
+execute if entity @a[tag=eoflib.atts, tag=!eof.passives.dune_surfer.hunger, predicate=eof:tribes/sandwings, predicate=eof:passives/dune_surfer/hunger/1] run function eof:passives/sandwings/dune_surfer/hunger/activate
 
     # Loop if there are SandWings
 execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/sandwings] run schedule function eof:passives/sandwings/base 1t

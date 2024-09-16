@@ -14,7 +14,7 @@ scoreboard players set @s eof.abilities.tidal_wave 0
 scoreboard players set @s eof.abilities.tail_flail 0
 
         ## Reset passives
-scoreboard players set @s eof.passives.true_blessing 0
+scoreboard players set @s eof.passives.true_blessing.swim 0
 scoreboard players set @s eof.passives.torrent 0
 
 #endregion

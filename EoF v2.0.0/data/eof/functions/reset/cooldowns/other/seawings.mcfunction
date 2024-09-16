@@ -14,7 +14,7 @@ scoreboard players set @a[predicate=!eof:tribes/seawings] eof.abilities.tidal_wa
 scoreboard players set @a[predicate=!eof:tribes/seawings] eof.abilities.tail_flail 0
 
         ## Reset passives
-scoreboard players set @a[predicate=!eof:tribes/seawings] eof.passives.true_blessing 0
+scoreboard players set @a[predicate=!eof:tribes/seawings] eof.passives.true_blessing.swim 0
 scoreboard players set @a[predicate=!eof:tribes/seawings] eof.passives.torrent 0
 
 #endregion

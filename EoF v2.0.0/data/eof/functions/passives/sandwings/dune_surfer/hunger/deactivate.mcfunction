@@ -1,4 +1,4 @@
-#> eof:passives/sandwings/dune_surfer/hunger/1/deactivate
+#> eof:passives/sandwings/dune_surfer/hunger/deactivate
 #
 # Deactivate Dune Surfer's hunger aspect.
 

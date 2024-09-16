@@ -18,7 +18,11 @@ execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/seawings, predicate=e
 execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/seawings, predicate=eof:passives/torrent/2] run function eof:passives/seawings/torrent/2
 
     # Check for True Blessing effects
-execute if entity @a[tag=eoflib.atts, tag=!eof.passives.true_blessing.init, tag=!eof.passives.true_blessing.active, predicate=eof:tribes/seawings, predicate=eof:passives/true_blessing/1] run function eof:passives/seawings/true_blessing/init
+        ## Swim
+execute if entity @a[tag=eoflib.atts, tag=!eof.passives.true_blessing.swim.init, tag=!eof.passives.true_blessing.swim.active, predicate=eof:tribes/seawings, predicate=eof:passives/true_blessing/swim/1] run function eof:passives/seawings/true_blessing/swim/init
+
+        ## Regen
+execute if entity @a[tag=eoflib.atts, tag=!eof.passives.true_blessing.regen.active, predicate=eof:tribes/seawings, predicate=eof:passives/true_blessing/regen/1] run function eof:passives/seawings/true_blessing/regen/activate
 
     # Loop if there are SeaWings
 execute if entity @a[tag=eoflib.atts, predicate=eof:tribes/seawings] run schedule function eof:passives/seawings/base 1t

@@ -9,7 +9,7 @@ execute if entity @s at @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug
 execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=1..}] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/skywings.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server executed the following function:\n- eof:load/gen/storages/ability_data/skywings.mcfunction", "color": "aqua"}}}]
 
     # Initialise ability array
-data modify storage eoflib:config eof.Abilities[].SkyWings set value {primary: [{}], secondary: [{}], tertiary: [{}]}
+data modify storage eoflib:config eof.Abilities[].SkyWings set value {primary: [{}], secondary: [{}], tertiary: [{}, {}]}
 
     # Generate ability data
         ## Flame Breath

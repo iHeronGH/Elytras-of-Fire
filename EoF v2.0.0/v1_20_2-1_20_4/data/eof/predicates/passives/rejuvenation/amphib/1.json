@@ -1,0 +1,6 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:location/submerged_in_water"
+    }
+]

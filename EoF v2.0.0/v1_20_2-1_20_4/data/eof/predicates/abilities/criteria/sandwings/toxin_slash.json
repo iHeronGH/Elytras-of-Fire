@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "eof:tribes/sandwings"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:abilities/tertiary_activated"
+    }
+]

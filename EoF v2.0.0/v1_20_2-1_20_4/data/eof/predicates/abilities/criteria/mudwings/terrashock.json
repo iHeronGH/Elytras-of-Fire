@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "eof:tribes/mudwings"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:abilities/secondary_activated"
+    }
+]

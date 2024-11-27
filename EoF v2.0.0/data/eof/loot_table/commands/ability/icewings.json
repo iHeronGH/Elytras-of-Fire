@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "eof:commands/ability/icewings/frost_breath"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "eof:commands/ability/icewings/serrated_strike"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "eof:commands/ability/icewings/icicle_incision"
+                }
+            ]
+        }
+    ]
+}

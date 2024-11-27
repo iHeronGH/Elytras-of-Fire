@@ -1,0 +1,173 @@
+[
+    {
+        "function": "minecraft:reference",
+        "name": "eoflib:ability/base"
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "nbt": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".\"ability_data\".format.name",
+            "storage": "eoflib:config",
+            "interpret": true
+        }
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "eoflib:ability/lore/tribe"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "nbt": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".\"ability_data\".format.tribe",
+                "storage": "eoflib:config",
+                "interpret": true
+            }
+        ],
+        "replace": false,
+        "conditions": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:reference",
+                    "name": "eoflib:settings/player/ability_data/hide_tribe"
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "eoflib:ability/lore/archetype"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "nbt": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".\"ability_data\".format.archetype",
+                "storage": "eoflib:config",
+                "interpret": true
+            }
+        ],
+        "replace": false,
+        "conditions": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:reference",
+                    "name": "eoflib:settings/player/ability_data/hide_archetype"
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "eoflib:ability/lore/activation"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "nbt": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".\"ability_data\".format.activation",
+                "storage": "eoflib:config",
+                "interpret": true
+            }
+        ],
+        "replace": false,
+        "conditions": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:reference",
+                    "name": "eoflib:settings/player/ability_data/hide_activation"
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "eoflib:ability/lore/effects"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "nbt": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".\"ability_data\".format.effects[0]",
+                "storage": "eoflib:config",
+                "interpret": true
+            },
+            {
+                "nbt": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".\"ability_data\".format.effects[1]",
+                "storage": "eoflib:config",
+                "interpret": true
+            }
+        ],
+        "replace": false,
+        "conditions": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:reference",
+                    "name": "eoflib:settings/player/ability_data/hide_effects"
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:reference",
+        "name": "eoflib:ability/lore/cooldown"
+    },
+    {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+            {
+                "nbt": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".\"ability_data\".format.cooldown",
+                "storage": "eoflib:config",
+                "interpret": true
+            }
+        ],
+        "replace": false,
+        "conditions": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:reference",
+                    "name": "eoflib:settings/player/ability_data/hide_cooldown"
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "eoflib:config"
+        },
+        "ops": [
+            {
+                "source": "eof.Abilities[].RainWings.secondary[0].\"eof_data\".model_id",
+                "target": "CustomModelData",
+                "op": "merge"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "eoflib:config"
+        },
+        "ops": [
+            {
+                "source": "eof.Abilities[].RainWings.secondary[0].\"eof_data\"",
+                "target": "eof_data",
+                "op": "merge"
+            }
+        ]
+    }
+]

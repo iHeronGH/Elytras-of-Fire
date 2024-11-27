@@ -1,0 +1,10 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "eof:tribes/icewings"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "eoflib:abilities/primary_activated"
+    }
+]

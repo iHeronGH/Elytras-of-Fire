@@ -1,0 +1,25 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/icewings/serrated_strike"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/mudwings/terrashock"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/rainwings/overgrowth"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/sandwings/desert_storm"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/skywings/sky_surge"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/icewings"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/mudwings"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/nightwings"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/rainwings"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/sandwings"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/seawings"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/skywings"
+        }
+    ]
+}

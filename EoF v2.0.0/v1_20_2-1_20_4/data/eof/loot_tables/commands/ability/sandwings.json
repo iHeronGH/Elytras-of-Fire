@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "eof:commands/ability/sandwings/flame_breath"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "eof:commands/ability/sandwings/desert_storm"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "eof:commands/ability/sandwings/toxin_slash"
+                }
+            ]
+        }
+    ]
+}

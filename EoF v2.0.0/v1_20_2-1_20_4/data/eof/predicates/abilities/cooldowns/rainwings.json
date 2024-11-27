@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/rainwings/venom_shot"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/rainwings/overgrowth"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/rainwings/soul_sap"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "eoflib.health": {
+            "max": {
+                "type": "minecraft:score",
+                "score": "eof.passives.torrent",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#eof.passives.torrent.2"
+                },
+                "scale": 1
+            }
+        }
+    }
+}

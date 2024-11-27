@@ -1,0 +1,21 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/mudwings/mud_swipe"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/nightwings/premonition/on_cooldown"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/rainwings/soul_sap"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "eof:abilities/cooldowns/seawings/tail_flail"
+        }
+    ]
+}

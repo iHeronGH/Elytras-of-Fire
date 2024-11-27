@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+        "eof.passives.sibling_bond": {
+            "min": {
+                "type": "minecraft:score",
+                "score": "eof.passives.sibling_bond",
+                "target": {
+                    "type": "minecraft:fixed",
+                    "name": "#eof.passives.sibling_bond.1"
+                },
+                "scale": 1
+            }
+        }
+    }
+}

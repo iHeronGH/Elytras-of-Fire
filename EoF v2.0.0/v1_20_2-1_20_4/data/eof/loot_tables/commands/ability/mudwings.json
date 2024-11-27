@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "eof:commands/ability/mudwings/flame_breath"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "eof:commands/ability/mudwings/terrashock"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "name": "eof:commands/ability/mudwings/mud_swipe"
+                }
+            ]
+        }
+    ]
+}

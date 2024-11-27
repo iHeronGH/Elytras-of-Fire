@@ -1,0 +1,31 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "eof:commands/ability/seawings/tidal_wave"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "eof:commands/ability/seawings/oceans_blessing"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "eof:commands/ability/seawings/tail_flail"
+                }
+            ]
+        }
+    ]
+}

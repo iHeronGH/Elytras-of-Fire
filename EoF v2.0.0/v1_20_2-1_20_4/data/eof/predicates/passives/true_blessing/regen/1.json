@@ -1,0 +1,44 @@
+[
+    {
+        "condition": "minecraft:any_of",
+        "terms": [
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "eof.passives.true_blessing.regen": {
+                        "max": {
+                            "type": "minecraft:score",
+                            "target": {
+                                "type": "minecraft:fixed",
+                                "name": "#cooldown"
+                            },
+                            "score": "eof.passives.true_blessing.regen",
+                            "scale": 1
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "eof.passives.true_blessing.regen": {
+                            "max": {
+                                "type": "minecraft:score",
+                                "target": {
+                                    "type": "minecraft:fixed",
+                                    "name": "#cooldown"
+                                },
+                                "score": "eof.passives.true_blessing.regen",
+                                "scale": 1
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

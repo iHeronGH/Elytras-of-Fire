@@ -1,0 +1,38 @@
+{
+    "folders": [
+        {
+            "name": "EoF",
+            "path": "EoF v2.0.0"
+        }
+    ],
+    "settings": {
+        "html.format.indentInnerHtml": true,
+        "editor.indentSize": "tabSize",
+        "editor.detectIndentation": false,
+        "workbench.iconTheme": "mc-dp-icons",
+        "datapack.env.cmdVersion": "1.20.2",
+        "datapack.env.dataVersion": "1.20.2"
+    },
+    "extensions": {
+        "recommendations": [
+            "spgoding.datapack-language-server",
+            "minecraftcommands.syntax-mcfunction",
+            "chencmd.mc-datapack-utility",
+            "superant.mc-dp-icons",
+            "bierner.markdown-preview-github-styles"
+        ]
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "mcfunction: Debug current function",
+                "type": "mcfunction",
+                "request": "launch",
+                "program": "${file}",
+                "minecraftWorldDir": "${userHome}/AppData/Roaming/PrismLauncher/instances/Fabric 1.20.4/.minecraft/saves/WoFTNW Datapacks",
+                "minecraftLogFile": "${userHome}/AppData/Roaming/PrismLauncher/instances/Fabric 1.20.4/.minecraft/logs/latest.log"
+            }
+        ]
+    }
+}

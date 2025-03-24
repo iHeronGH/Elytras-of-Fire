@@ -21,6 +21,7 @@ data modify storage eoflib:config eof.Abilities[].MudWings.primary[0].eof_data s
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 100100, \
+    "model_path": "minecraft:eof/mudwing/primary", \
     "ability_data": { \
         "name": 'flame_breath', \
         "tribe": 'mudwings', \
@@ -56,6 +57,7 @@ data modify storage eoflib:config eof.Abilities[].MudWings.secondary[0].eof_data
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 100101, \
+    "model_path": "minecraft:eof/mudwing/secondary", \
     "ability_data": { \
         "name": 'terrashock', \
         "tribe": 'mudwings', \
@@ -83,6 +85,7 @@ data modify storage eoflib:config eof.Abilities[].MudWings.tertiary[0].eof_data 
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 100110, \
+    "model_path": "minecraft:eof/mudwing/tertiary", \
     "ability_data": { \
         "name": 'mud_swipe', \
         "tribe": 'mudwings', \

@@ -17,6 +17,7 @@ data modify storage eoflib:config eof.Abilities[].SandWings.primary[0].eof_data 
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 110000, \
+    "model_path": "minecraft:eof/sandwing/primary", \
     "ability_data": { \
         "name": 'flame_breath', \
         "tribe": 'sandwings', \
@@ -52,6 +53,7 @@ data modify storage eoflib:config eof.Abilities[].SandWings.secondary[0].eof_dat
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 110001, \
+    "model_path": "minecraft:eof/sandwing/secondary", \
     "ability_data": { \
         "name": 'desert_storm', \
         "tribe": 'sandwings', \
@@ -78,6 +80,7 @@ data modify storage eoflib:config eof.Abilities[].SandWings.tertiary[0].eof_data
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 110010, \
+    "model_path": "minecraft:eof/sandwing/tertiary", \
     "ability_data": { \
         "name": 'toxin_slash', \
         "tribe": 'sandwings', \

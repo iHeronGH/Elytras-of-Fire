@@ -21,6 +21,7 @@ data modify storage eoflib:config eof.Abilities[].NightWings.primary[0].eof_data
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 101000, \
+    "model_path": "minecraft:eof/nightwing/primary", \
     "ability_data": { \
         "name": 'flame_breath', \
         "tribe": 'nightwings', \
@@ -56,6 +57,7 @@ data modify storage eoflib:config eof.Abilities[].NightWings.secondary[0].eof_da
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 101001, \
+    "model_path": "minecraft:eof/nightwing/secondary", \
     "ability_data": { \
         "name": 'shade_shackle', \
         "tribe": 'nightwings', \
@@ -82,6 +84,7 @@ data modify storage eoflib:config eof.Abilities[].NightWings.tertiary[0].eof_dat
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 101010, \
+    "model_path": "minecraft:eof/nightwing/tertiary", \
     "ability_data": { \
         "name": 'premonition', \
         "tribe": 'nightwings', \

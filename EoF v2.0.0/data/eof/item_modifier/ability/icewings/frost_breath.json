@@ -154,12 +154,52 @@
         ]
     },
     {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:item_model": "minecraft:eof/icewing/primary"
+        }
+    },
+    {
         "function": "minecraft:set_custom_model_data",
         "value": {
             "type": "minecraft:storage",
             "storage": "eoflib:config",
             "path": "eof.Abilities[].IceWings.primary[0].\"eof_data\".model_id"
-        }
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:value_check",
+                "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                        "type": "minecraft:fixed",
+                        "name": "#eoflib.game_ver"
+                    },
+                    "score": "eoflib.game_ver",
+                    "scale": 1
+                },
+                "range": {
+                    "min": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "#eoflib.1_20_5"
+                        },
+                        "score": "eoflib.game_ver",
+                        "scale": 1
+                    },
+                    "max": {
+                        "type": "minecraft:score",
+                        "target": {
+                            "type": "minecraft:fixed",
+                            "name": "#eoflib.1_21_3"
+                        },
+                        "score": "eoflib.game_ver",
+                        "scale": 1
+                    }
+                }
+            }
+        ]
     },
     {
         "function": "minecraft:copy_custom_data",

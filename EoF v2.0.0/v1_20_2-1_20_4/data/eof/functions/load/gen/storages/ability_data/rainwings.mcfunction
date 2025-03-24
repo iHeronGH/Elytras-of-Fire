@@ -17,6 +17,7 @@ data modify storage eoflib:config eof.Abilities[].RainWings.primary[0].eof_data 
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 101100, \
+    "model_path": "minecraft:eof/rainwing/primary", \
     "ability_data": { \
         "name": 'venom_shot', \
         "tribe": 'rainwings', \
@@ -51,6 +52,7 @@ data modify storage eoflib:config eof.Abilities[].RainWings.secondary[0].eof_dat
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 101101, \
+    "model_path": "minecraft:eof/rainwing/secondary", \
     "ability_data": { \
         "name": 'overgrowth', \
         "tribe": 'rainwings', \
@@ -76,6 +78,7 @@ data modify storage eoflib:config eof.Abilities[].RainWings.tertiary[0].eof_data
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 101110, \
+    "model_path": "minecraft:eof/rainwing/tertiary", \
     "ability_data": { \
         "name": 'soul_sap', \
         "tribe": 'rainwings', \

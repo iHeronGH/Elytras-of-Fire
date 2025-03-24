@@ -21,6 +21,7 @@ data modify storage eoflib:config eof.Abilities[].IceWings.primary[0].eof_data s
     "dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 100000, \
+    "model_path": "minecraft:eof/icewing/primary", \
     "ability_data": { \
         "name": 'frost_breath', \
         "tribe": 'icewings', \
@@ -58,6 +59,7 @@ data modify storage eoflib:config eof.Abilities[].IceWings.secondary[0].eof_data
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 100001, \
+    "model_path": "minecraft:eof/icewing/secondary", \
     "ability_data": { \
         "name": 'serrated_strike', \
         "tribe": 'icewings', \
@@ -86,6 +88,7 @@ data modify storage eoflib:config eof.Abilities[].IceWings.tertiary[0].eof_data 
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 100010, \
+    "model_path": "minecraft:eof/icewing/tertiary", \
     "ability_data": { \
         "name": 'icicle_incision', \
         "tribe": 'icewings', \

@@ -17,6 +17,7 @@ data modify storage eoflib:config eof.Abilities[].SkyWings.primary[0].eof_data s
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 111000, \
+    "model_path": "minecraft:eof/skywing/primary", \
     "ability_data": { \
         "name": 'flame_breath', \
         "tribe": 'skywings', \
@@ -52,6 +53,7 @@ data modify storage eoflib:config eof.Abilities[].SkyWings.secondary[0].eof_data
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 111001, \
+    "model_path": "minecraft:eof/skywing/secondary", \
     "ability_data": { \
         "name": 'sky_surge', \
         "tribe": 'skywings', \
@@ -77,6 +79,7 @@ data modify storage eoflib:config eof.Abilities[].SkyWings.tertiary[0].eof_data 
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 111010, \
+    "model_path": "minecraft:eof/skywing/tertiary", \
     "ability_data": { \
         "name": 'spark_punch', \
         "mode": 'spark', \
@@ -102,6 +105,7 @@ data modify storage eoflib:config eof.Abilities[].SkyWings.tertiary[1].eof_data 
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 111010, \
+    "model_path": "minecraft:eof/skywing/tertiary", \
     "ability_data": { \
         "name": 'spark_punch', \
         "mode": 'smite', \

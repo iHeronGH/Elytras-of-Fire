@@ -17,6 +17,7 @@ data modify storage eoflib:config eof.Abilities[].SeaWings.primary[0].eof_data s
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 110100, \
+    "model_path": "minecraft:eof/seawing/primary", \
     "ability_data": { \
         "name": 'tidal_wave', \
         "tribe": 'seawings', \
@@ -57,6 +58,7 @@ data modify storage eoflib:config eof.Abilities[].SeaWings.secondary[0].eof_data
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 110101, \
+    "model_path": "minecraft:eof/seawing/secondary", \
     "ability_data": { \
         "name": 'oceans_blessing', \
         "tribe": 'seawings', \
@@ -88,6 +90,7 @@ data modify storage eoflib:config eof.Abilities[].SeaWings.tertiary[0].eof_data 
 	"dlc": 'eof', \
     "version": '2_0_0', \
     "model_id": 110110, \
+    "model_path": "minecraft:eof/seawing/tertiary", \
     "ability_data": { \
         "name": 'tail_flail', \
         "tribe": 'seawings', \

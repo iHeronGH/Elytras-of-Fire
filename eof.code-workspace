@@ -10,8 +10,8 @@
         "editor.indentSize": "tabSize",
         "editor.detectIndentation": false,
         "workbench.iconTheme": "mc-dp-icons",
-        "datapack.env.cmdVersion": "1.20.2",
-        "datapack.env.dataVersion": "1.20.2"
+        "datapack.env.cmdVersion": "1.21.4",
+        "datapack.env.dataVersion": "1.21.4"
     },
     "extensions": {
         "recommendations": [

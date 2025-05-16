@@ -5,7 +5,7 @@
 #region
     # Debug
 execute if entity @s run tellraw @s[tag=eoflib.debug, scores={eoflib.debug_mode=1..}] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/skywings.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": {"text": "You ran the following function:\n- eof:load/gen/storages/ability_data/skywings.mcfunction", "color": "aqua"}}}]
-execute if entity @s at @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=3..}, distance=0.1..] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/skywings.mcf", "color": "gold", "hoverEvent": {"action": "show_text", "value": [{"selector": "@s", "color": "aqua"}, {"text": " ran the following function:\n- eof:load/gen/storages/ability_data/skywings.mcfunction", "color": "aqua"}]}}]
+execute if entity @s at @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=3..}, distance=0.1..] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/skywings.mcf", "color": "#967228", "hoverEvent": {"action": "show_text", "value": [{"selector": "@s", "color": "aqua"}, {"text": " ran the following function:\n- eof:load/gen/storages/ability_data/skywings.mcfunction", "color": "aqua"}]}}]
 execute unless entity @s run tellraw @a[tag=eoflib.debug, scores={eoflib.debug_mode=1..}] [{"text": "[", "color": "dark_gray"}, {"text": "Debug", "color": "gold"}, {"text": "] - ", "color": "dark_gray"}, {"text": "eof:ability_data/skywings.mcf", "color": "gray", "hoverEvent": {"action": "show_text", "value": {"text": "Server ran the following function:\n- eof:load/gen/storages/ability_data/skywings.mcfunction", "color": "aqua"}}}]
 
     # Initialise ability array
@@ -27,7 +27,7 @@ data modify storage eoflib:config eof.Abilities[].SkyWings.primary[0].eof_data s
         "format": { \
             "name": '{"text": "Flame Breath", "color": "red", "italic": false}', \
             "tribe": '{"text": "SkyWing", "color": "dark_red", "italic": false}', \
-            "archetype": '{"text": "Primary", "color": "gray", "italic": false}', \
+            "archetype": '{"text": "Primary (Straight, 11)", "color": "gray", "italic": false}', \
             "activation": '[{"keybind": "key.sneak", "color": "gray", "italic": false}, {"text": " + ", "color": "gray", "italic": false}, {"keybind": "key.use", "color": "gray", "italic": false}]', \
             "cooldown": '{"text": "10s", "color": "gray", "italic": false}', \
             "effects": [ \

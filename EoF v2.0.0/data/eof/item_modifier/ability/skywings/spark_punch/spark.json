@@ -4,6 +4,11 @@
         "name": "eoflib:ability/base"
     },
     {
+        "function": "minecraft:enchant_with_levels",
+        "levels": 1,
+        "options": "minecraft:fire_aspect"
+    },
+    {
         "function": "minecraft:set_name",
         "entity": "this",
         "target": "custom_name",
